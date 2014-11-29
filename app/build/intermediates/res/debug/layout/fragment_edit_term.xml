@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_edittext"
+        android:hint="Math term"/>
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_edittext"
+        android:hint="Formula"/>
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/description_edittext"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Description"
+        android:layout="@layout/custom_float_lable_layout"/>
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tags_edittext"
+        android:hint="Tags"/>
+</LinearLayout>
+<!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/layout/fragment_edit_term.xml -->
