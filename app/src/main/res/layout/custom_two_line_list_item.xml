@@ -10,8 +10,7 @@
         android:textSize="24sp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Закон Ома"
-        android:textColor="#4d4d4d"/>
+        android:text="Закон Ома"/>
 
     <TextView android:id="@+id/term_formula"
         android:textSize="18sp"
