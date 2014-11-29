@@ -23,11 +23,13 @@
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="android:actionBarStyle">@style/MyActionBar</item>
-        <item name="android:textColor">#FFF</item>
-        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:windowBackground">@drawable/tile_background</item>
+        <!--<item name="android:textColor">#FFF</item>-->
+        <!--<item name="android:textColorPrimary">#FFF</item>-->
+        <!--<item name="android:textColorHint">#b4b4b4</item>-->
     </style>
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <!--<item name="android:background">#3f51b5</item>-->
-        <item name="android:background">#8a4900</item>
+        <item name="android:background">#3f51b5</item>
+        <!--<item name="android:background">#8a4900</item>-->
     </style>
 </resources>

@@ -11,7 +11,7 @@ public final class R {
 		public static final int floatLabelColor = 0x7f010000;
 	}
 	public static final class drawable {
-		public static final int ic_launcher = 0x7f020000;
+		public static final int ic_launcher = 0x7f020001;
 	}
 	public static final class id {
 		public static final int edit_text = 0x7f050000;
