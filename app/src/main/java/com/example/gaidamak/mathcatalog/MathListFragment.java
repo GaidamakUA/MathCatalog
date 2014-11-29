@@ -31,6 +31,9 @@ public class MathListFragment extends ListFragment implements LoaderManager.Load
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        getActivity().getActionBar().setTitle(getActivity().getResources().getString(R.string.app_name));
+
         activity = (FragmentManagingActivity) getActivity();
         mAdapter = new SimpleCursorAdapter(getActivity(),
                 R.layout.custom_two_line_list_item,

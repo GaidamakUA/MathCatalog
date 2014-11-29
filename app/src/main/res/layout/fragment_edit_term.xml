@@ -8,13 +8,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/title_edittext"
-        android:hint="Math term"/>
+        android:hint="@string/math_term_hint"/>
 
     <com.iangclifton.android.floatlabel.FloatLabel
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/formula_edittext"
-        android:hint="Formula"/>
+        android:hint="@string/formula_hint"
+        android:typeface="serif" />
 
     <com.iangclifton.android.floatlabel.FloatLabel
         android:layout_width="match_parent"
@@ -22,12 +23,12 @@
         android:id="@+id/description_edittext"
         android:layout_weight="1"
         android:gravity="top"
-        android:hint="Description"
+        android:hint="@string/description_hint"
         android:layout="@layout/custom_float_lable_layout"/>
 
     <com.iangclifton.android.floatlabel.FloatLabel
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tags_edittext"
-        android:hint="Tags"/>
+        android:hint="@string/tags_hint"/>
 </LinearLayout>

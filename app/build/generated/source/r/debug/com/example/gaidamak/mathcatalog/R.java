@@ -38,7 +38,7 @@ containing a value of this type.
         public static final int edit_text=0x7f050000;
         public static final int float_label=0x7f050001;
         public static final int formula_edittext=0x7f050006;
-        public static final int imageView=0x7f05000a;
+        public static final int formula_textview=0x7f05000a;
         public static final int search_edittext=0x7f050009;
         public static final int tags_edittext=0x7f050008;
         public static final int tags_textview=0x7f05000c;
@@ -64,7 +64,11 @@ containing a value of this type.
     public static final class string {
         public static final int action_add=0x7f060000;
         public static final int app_name=0x7f060001;
-        public static final int hello_blank_fragment=0x7f060002;
+        public static final int description_hint=0x7f060002;
+        public static final int formula_hint=0x7f060003;
+        public static final int hello_blank_fragment=0x7f060004;
+        public static final int math_term_hint=0x7f060005;
+        public static final int tags_hint=0x7f060006;
     }
     public static final class style {
         public static final int AppTheme=0x7f070000;

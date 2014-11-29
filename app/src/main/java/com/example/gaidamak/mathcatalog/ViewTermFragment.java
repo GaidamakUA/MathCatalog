@@ -19,6 +19,8 @@ public class ViewTermFragment extends Fragment {
     @FragmentArg
     Long termId;
 
+    @ViewById(R.id.formula_textview)
+    TextView formulaTextView;
     @ViewById(R.id.description_textview)
     TextView descriptionTextView;
     @ViewById(R.id.tags_textview)
@@ -38,6 +40,7 @@ public class ViewTermFragment extends Fragment {
 
         getActivity().getActionBar().setTitle(cursor.getMathTerm());
 
+        formulaTextView.setText(cursor.getMathFormula());
         descriptionTextView.setText(cursor.getDescription());
         tagsTextView.setText(cursor.getTags());
     }
