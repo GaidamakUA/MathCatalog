@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.1-834401d755ca16b30d82b75fa86503993568ca6d.jar"
+        jar="/home/gaidamak/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.1/ac33174269a767fcbf3a944cdb3d52e07ef93bee/androidannotations-api-3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ac33174269a767fcbf3a944cdb3d52e07ef93bee"/>
+    <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-107567be0ba2bc1f7d96bb3610fbe421e6ff9232.jar"
+        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.iangclifton.android/floatlabel/1.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f2ee15cbee368488b324a1fb14f94db283a47313"/>
+
+</pre-dex-items>

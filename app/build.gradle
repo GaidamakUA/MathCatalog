@@ -39,5 +39,6 @@ apt {
 dependencies {
     apt 'org.androidannotations:androidannotations:3.1'
     compile 'org.androidannotations:androidannotations-api:3.1'
+    compile 'com.iangclifton.android:floatlabel:1.0.2'
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

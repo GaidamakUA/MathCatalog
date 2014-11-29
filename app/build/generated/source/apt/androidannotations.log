@@ -1,0 +1,855 @@
+21:35:47.220 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:35:47.382 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:35:47.407 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:35:47.816 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:35:47.817 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:35:47.819 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:35:47.842 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:35:47.943 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 561 ms], [Extract Manifest = 411 ms], [Extract Annotations = 22 ms], 
+21:35:47.944 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:36:46.510 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:36:46.591 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:36:46.598 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:36:46.603 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:36:46.604 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:36:46.606 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:36:46.607 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:36:46.626 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 36 ms], [Extract Manifest = 7 ms], [Extract Annotations = 5 ms], 
+21:36:46.626 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:37:42.72 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:37:42.152 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:37:42.159 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:37:42.163 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:37:42.164 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:37:42.166 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:37:42.167 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:37:42.187 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 35 ms], [Extract Manifest = 7 ms], [Extract Annotations = 5 ms], 
+21:37:42.187 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:38:33.192 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:38:34.420 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:38:34.427 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:38:34.431 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:38:34.432 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:38:34.433 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:38:34.434 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:38:34.451 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 31 ms], [Extract Manifest = 7 ms], [Extract Annotations = 5 ms], 
+21:38:34.451 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:38:49.631 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:38:49.713 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:38:49.719 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:38:49.724 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:38:49.725 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:38:49.726 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:38:49.727 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:38:49.743 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 30 ms], [Extract Manifest = 7 ms], [Extract Annotations = 5 ms], 
+21:38:49.744 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:39:06.27 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:39:06.102 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:39:06.109 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:39:06.113 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:39:06.114 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:39:06.116 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:39:06.117 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:39:06.128 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 26 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], 
+21:39:06.128 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:39:14.643 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:39:14.721 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:39:14.729 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:39:14.734 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:39:14.744 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:39:14.745 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:39:14.747 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:39:14.770 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 49 ms], [Extract Manifest = 16 ms], [Extract Annotations = 6 ms], 
+21:39:14.770 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:39:30.929 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=ua.com.studiovision.euromaidan}
+21:39:30.999 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:39:31.5 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:39:31.10 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:39:31.11 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:39:31.12 [Daemon Thread 5] ERROR o.a.r.ProjectRClassFinder:46 - The generated ua.com.studiovision.euromaidan.R class cannot be found
+21:39:31.13 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:39:31.22 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 23 ms], [Extract Manifest = 7 ms], [Extract Annotations = 4 ms], 
+21:39:31.23 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:40:49.310 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:40:49.382 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:40:49.388 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:40:49.393 [Daemon Thread 5] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [com.example.gaidamak.mathcatalog.provider.MathProvider]
+21:40:49.394 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:40:49.395 [Daemon Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:40:49.398 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:40:49.417 [Daemon Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:40:49.417 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:40:49.454 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:40:49.455 [Daemon Thread 5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:40:49.479 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:40:49.480 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:40:49.482 [Daemon Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:40:49.484 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:40:49.500 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 118 ms], [Process Annotations = 35 ms], [Validate Annotations = 29 ms], [Generate Sources = 20 ms], [Find R Classes = 13 ms], [Extract Manifest = 7 ms], [Extract Annotations = 4 ms], 
+21:40:49.500 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:41:33.670 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:41:33.833 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:41:33.848 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:41:33.867 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:41:33.868 [Daemon Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:41:33.875 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:41:33.926 [Daemon Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:41:33.926 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:41:33.950 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:41:33.950 [Daemon Thread 5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:41:34.3 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:41:34.4 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:41:34.6 [Daemon Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:41:34.14 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:41:34.47 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 214 ms], [Process Annotations = 71 ms], [Generate Sources = 43 ms], [Find R Classes = 27 ms], [Extract Manifest = 21 ms], [Extract Annotations = 13 ms], [Validate Annotations = 8 ms], 
+21:41:34.47 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:42:03.478 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:42:03.553 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:42:03.559 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:42:03.563 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:42:03.564 [Daemon Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:42:03.567 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:42:03.584 [Daemon Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:42:03.585 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:42:03.598 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:42:03.598 [Daemon Thread 5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:42:03.621 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:42:03.622 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:42:03.624 [Daemon Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:42:03.625 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:42:03.641 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 88 ms], [Process Annotations = 34 ms], [Generate Sources = 19 ms], [Find R Classes = 11 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], [Validate Annotations = 4 ms], 
+21:42:03.642 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:42:38.753 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:42:38.825 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 1 annotations on 14 elements
+21:42:38.831 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:42:38.836 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:42:38.837 [Daemon Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:42:38.840 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:42:38.857 [Daemon Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:42:38.858 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:42:38.871 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:42:38.872 [Daemon Thread 5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:42:38.894 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:42:38.895 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:42:38.897 [Daemon Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:42:38.898 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:42:38.914 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 89 ms], [Process Annotations = 34 ms], [Generate Sources = 18 ms], [Find R Classes = 12 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], [Validate Annotations = 4 ms], 
+21:42:38.914 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:48:11.179 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:48:11.255 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+21:48:11.262 [Daemon Thread 6] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:48:11.267 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:48:11.268 [Daemon Thread 6] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:48:11.271 [Daemon Thread 6] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:48:11.288 [Daemon Thread 6] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:48:11.288 [Daemon Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:48:11.292 [Daemon Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:48:11.294 [Daemon Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+21:48:11.306 [Daemon Thread 6] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:48:11.306 [Daemon Thread 6] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:48:11.329 [Daemon Thread 6] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:48:11.331 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:48:11.333 [Daemon Thread 6] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:48:11.334 [Daemon Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:48:11.352 [Daemon Thread 6] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 96 ms], [Process Annotations = 34 ms], [Generate Sources = 20 ms], [Find R Classes = 12 ms], [Validate Annotations = 10 ms], [Extract Annotations = 6 ms], [Extract Manifest = 6 ms], 
+21:48:11.352 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:52:04.35 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:52:04.108 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+21:52:04.116 [Daemon Thread 7] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:52:04.120 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:52:04.121 [Daemon Thread 7] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:52:04.124 [Daemon Thread 7] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:52:04.141 [Daemon Thread 7] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:52:04.142 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:52:04.146 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:52:04.148 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+21:52:04.160 [Daemon Thread 7] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:52:04.160 [Daemon Thread 7] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:52:04.183 [Daemon Thread 7] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:52:04.185 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:52:04.187 [Daemon Thread 7] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:52:04.188 [Daemon Thread 7] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:52:04.207 [Daemon Thread 7] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 98 ms], [Process Annotations = 35 ms], [Generate Sources = 21 ms], [Find R Classes = 11 ms], [Validate Annotations = 9 ms], [Extract Annotations = 6 ms], [Extract Manifest = 6 ms], 
+21:52:04.207 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:52:37.923 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:52:37.997 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+21:52:38.4 [Daemon Thread 7] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:52:38.9 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:52:38.10 [Daemon Thread 7] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:52:38.12 [Daemon Thread 7] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:52:38.31 [Daemon Thread 7] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:52:38.31 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:52:38.35 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:52:38.37 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+21:52:38.49 [Daemon Thread 7] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:52:38.49 [Daemon Thread 7] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+21:52:38.72 [Daemon Thread 7] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:52:38.74 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+21:52:38.76 [Daemon Thread 7] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:52:38.77 [Daemon Thread 7] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:52:38.95 [Daemon Thread 7] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 99 ms], [Process Annotations = 35 ms], [Generate Sources = 21 ms], [Find R Classes = 12 ms], [Validate Annotations = 9 ms], [Extract Annotations = 6 ms], [Extract Manifest = 6 ms], 
+21:52:38.95 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+22:09:07.10 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+22:09:07.95 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+22:09:07.103 [Daemon Thread 8] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+22:09:07.108 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+22:09:07.109 [Daemon Thread 8] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+22:09:07.112 [Daemon Thread 8] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+22:09:07.130 [Daemon Thread 8] INFO  o.a.p.ModelValidator:42 - Validating elements
+22:09:07.130 [Daemon Thread 8] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+22:09:07.134 [Daemon Thread 8] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+22:09:07.137 [Daemon Thread 8] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+22:09:07.148 [Daemon Thread 8] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+22:09:07.149 [Daemon Thread 8] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+22:09:07.172 [Daemon Thread 8] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+22:09:07.174 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+22:09:07.176 [Daemon Thread 8] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+22:09:07.178 [Daemon Thread 8] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+22:09:07.195 [Daemon Thread 8] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 100 ms], [Process Annotations = 35 ms], [Generate Sources = 21 ms], [Find R Classes = 12 ms], [Validate Annotations = 10 ms], [Extract Manifest = 6 ms], [Extract Annotations = 5 ms], 
+22:09:07.196 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+04:07:03.537 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+04:07:03.694 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+04:07:03.729 [Daemon Thread 2] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+04:07:03.951 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+04:07:03.952 [Daemon Thread 2] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+04:07:03.971 [Daemon Thread 2] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+04:07:04.55 [Daemon Thread 2] INFO  o.a.p.ModelValidator:42 - Validating elements
+04:07:04.55 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+04:07:04.66 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+04:07:04.70 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+04:07:04.92 [Daemon Thread 2] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+04:07:04.92 [Daemon Thread 2] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+04:07:04.133 [Daemon Thread 2] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+04:07:04.135 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+04:07:04.138 [Daemon Thread 2] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+04:07:04.140 [Daemon Thread 2] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+04:07:04.173 [Daemon Thread 2] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 479 ms], [Extract Manifest = 225 ms], [Find R Classes = 88 ms], [Process Annotations = 61 ms], [Generate Sources = 38 ms], [Extract Annotations = 32 ms], [Validate Annotations = 21 ms], 
+04:07:04.174 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+04:52:27.443 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+04:52:27.622 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+04:52:27.661 [Daemon Thread 3] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+04:52:27.686 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+04:52:27.687 [Daemon Thread 3] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+04:52:27.691 [Daemon Thread 3] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+04:52:27.753 [Daemon Thread 3] INFO  o.a.p.ModelValidator:42 - Validating elements
+04:52:27.754 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+04:52:27.791 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+04:52:27.793 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+04:52:27.819 [Daemon Thread 3] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+04:52:27.820 [Daemon Thread 3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+04:52:27.892 [Daemon Thread 3] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+04:52:27.893 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+04:52:27.896 [Daemon Thread 3] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+04:52:27.898 [Daemon Thread 3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+04:52:27.945 [Daemon Thread 3] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 323 ms], [Process Annotations = 97 ms], [Find R Classes = 57 ms], [Generate Sources = 52 ms], [Validate Annotations = 43 ms], [Extract Annotations = 36 ms], [Extract Manifest = 26 ms], 
+04:52:27.945 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:01:08.2 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:01:08.103 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+05:01:08.113 [Daemon Thread 4] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:01:08.118 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:01:08.119 [Daemon Thread 4] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:01:08.122 [Daemon Thread 4] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:01:08.149 [Daemon Thread 4] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:01:08.149 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:01:08.153 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:01:08.155 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:01:08.167 [Daemon Thread 4] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:01:08.168 [Daemon Thread 4] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:01:08.192 [Daemon Thread 4] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:01:08.194 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+05:01:08.197 [Daemon Thread 4] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:01:08.199 [Daemon Thread 4] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:01:08.226 [Daemon Thread 4] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 123 ms], [Process Annotations = 37 ms], [Generate Sources = 32 ms], [Find R Classes = 20 ms], [Validate Annotations = 9 ms], [Extract Annotations = 8 ms], [Extract Manifest = 6 ms], 
+05:01:08.226 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:03:32.651 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:03:32.749 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+05:03:32.760 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:03:32.765 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:03:32.766 [Daemon Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:03:32.769 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:03:32.794 [Daemon Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:03:32.795 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:03:32.798 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:03:32.800 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:03:32.812 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:03:32.812 [Daemon Thread 5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:03:32.836 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:03:32.838 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+05:03:32.840 [Daemon Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:03:32.842 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:03:32.862 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 114 ms], [Process Annotations = 36 ms], [Generate Sources = 24 ms], [Find R Classes = 19 ms], [Extract Annotations = 9 ms], [Validate Annotations = 9 ms], [Extract Manifest = 6 ms], 
+05:03:32.863 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:06:43.354 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:06:43.434 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+05:06:43.444 [Daemon Thread 6] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:06:43.449 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:06:43.450 [Daemon Thread 6] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:06:43.453 [Daemon Thread 6] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:06:43.483 [Daemon Thread 6] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:06:43.483 [Daemon Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:06:43.487 [Daemon Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:06:43.493 [Daemon Thread 6] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:06:43.525 [Daemon Thread 6] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:06:43.525 [Daemon Thread 6] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:06:43.552 [Daemon Thread 6] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:06:43.554 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+05:06:43.556 [Daemon Thread 6] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:06:43.557 [Daemon Thread 6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:06:43.580 [Daemon Thread 6] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 146 ms], [Process Annotations = 57 ms], [Generate Sources = 27 ms], [Find R Classes = 18 ms], [Validate Annotations = 14 ms], [Extract Annotations = 7 ms], [Extract Manifest = 7 ms], 
+05:06:43.580 [Daemon Thread 6] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:10:02.774 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:10:02.862 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 14 elements
+05:10:02.872 [Daemon Thread 7] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:10:02.879 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:10:02.883 [Daemon Thread 7] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:10:02.887 [Daemon Thread 7] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:10:02.910 [Daemon Thread 7] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:10:02.911 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:10:02.915 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:10:02.919 [Daemon Thread 7] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:10:02.931 [Daemon Thread 7] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:10:02.932 [Daemon Thread 7] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:10:02.956 [Daemon Thread 7] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:10:02.957 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+05:10:02.960 [Daemon Thread 7] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:10:02.963 [Daemon Thread 7] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:10:02.981 [Daemon Thread 7] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 119 ms], [Process Annotations = 36 ms], [Generate Sources = 24 ms], [Find R Classes = 20 ms], [Validate Annotations = 11 ms], [Extract Manifest = 9 ms], [Extract Annotations = 7 ms], 
+05:10:02.981 [Daemon Thread 7] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:33:35.546 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:33:35.634 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 3 annotations on 16 elements
+05:33:35.665 [Daemon Thread 8] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:33:35.680 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:33:35.681 [Daemon Thread 8] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:33:35.684 [Daemon Thread 8] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:33:35.741 [Daemon Thread 8] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:33:35.741 [Daemon Thread 8] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:33:35.747 [Daemon Thread 8] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:33:35.752 [Daemon Thread 8] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:33:35.765 [Daemon Thread 8] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:33:35.766 [Daemon Thread 8] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+05:33:35.790 [Daemon Thread 8] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:33:35.792 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:33:35.794 [Daemon Thread 8] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:33:35.796 [Daemon Thread 8] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:33:35.813 [Daemon Thread 8] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:33:35.863 [Daemon Thread 8] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 229 ms], [Generate Sources = 71 ms], [Find R Classes = 50 ms], [Process Annotations = 37 ms], [Extract Annotations = 28 ms], [Extract Manifest = 16 ms], [Validate Annotations = 15 ms], 
+05:33:35.872 [Daemon Thread 8] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:35:45.674 [Daemon Thread 9] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:35:45.789 [Daemon Thread 9] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 4 annotations on 16 elements
+05:35:45.800 [Daemon Thread 9] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:35:45.805 [Daemon Thread 9] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:35:45.806 [Daemon Thread 9] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:35:45.809 [Daemon Thread 9] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:35:45.837 [Daemon Thread 9] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:35:45.838 [Daemon Thread 9] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:35:45.843 [Daemon Thread 9] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:35:45.844 [Daemon Thread 9] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:35:45.846 [Daemon Thread 9] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:35:45.893 [Daemon Thread 9] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:35:45.894 [Daemon Thread 9] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:35:45.919 [Daemon Thread 9] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:35:45.925 [Daemon Thread 9] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:35:45.927 [Daemon Thread 9] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:35:45.929 [Daemon Thread 9] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:35:45.947 [Daemon Thread 9] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:35:45.959 [Daemon Thread 9] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 170 ms], [Process Annotations = 76 ms], [Generate Sources = 34 ms], [Find R Classes = 18 ms], [Validate Annotations = 12 ms], [Extract Annotations = 8 ms], [Extract Manifest = 7 ms], 
+05:35:45.959 [Daemon Thread 9] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:43:05.129 [Daemon Thread 10] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:43:05.208 [Daemon Thread 10] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:43:05.216 [Daemon Thread 10] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:43:05.221 [Daemon Thread 10] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:43:05.223 [Daemon Thread 10] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:43:05.226 [Daemon Thread 10] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:43:05.254 [Daemon Thread 10] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:43:05.255 [Daemon Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:43:05.258 [Daemon Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:43:05.261 [Daemon Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:43:05.262 [Daemon Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:43:05.264 [Daemon Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:43:05.267 [Daemon Thread 10] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:43:05.277 [Daemon Thread 10] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:43:05.278 [Daemon Thread 10] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+05:43:05.300 [Daemon Thread 10] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:43:05.307 [Daemon Thread 10] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:43:05.309 [Daemon Thread 10] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:43:05.311 [Daemon Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:43:05.327 [Daemon Thread 10] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:43:05.341 [Daemon Thread 10] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 134 ms], [Process Annotations = 40 ms], [Generate Sources = 34 ms], [Find R Classes = 19 ms], [Validate Annotations = 14 ms], [Extract Annotations = 7 ms], [Extract Manifest = 6 ms], 
+05:43:05.341 [Daemon Thread 10] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:45:34.958 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:45:35.29 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:45:35.37 [Daemon Thread 11] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:45:35.43 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:45:35.45 [Daemon Thread 11] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:45:35.48 [Daemon Thread 11] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:45:35.66 [Daemon Thread 11] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:45:35.67 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:45:35.70 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:45:35.73 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:45:35.73 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:45:35.75 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:45:35.77 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:45:35.87 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:45:35.88 [Daemon Thread 11] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+05:45:35.110 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:45:35.119 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:45:35.124 [Daemon Thread 11] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:45:35.126 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:45:35.144 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:45:35.160 [Daemon Thread 11] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 131 ms], [Process Annotations = 41 ms], [Generate Sources = 41 ms], [Find R Classes = 13 ms], [Validate Annotations = 12 ms], [Extract Annotations = 7 ms], [Extract Manifest = 7 ms], 
+05:45:35.160 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:46:05.876 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:46:05.957 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:46:05.964 [Daemon Thread 11] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:46:05.969 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:46:05.970 [Daemon Thread 11] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:46:05.976 [Daemon Thread 11] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:46:06.12 [Daemon Thread 11] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:46:06.13 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:46:06.19 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:46:06.22 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:46:06.23 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:46:06.25 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:46:06.29 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:46:06.40 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:46:06.41 [Daemon Thread 11] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:46:06.64 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:46:06.71 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:46:06.73 [Daemon Thread 11] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:46:06.75 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:46:06.91 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:46:06.105 [Daemon Thread 11] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 147 ms], [Process Annotations = 41 ms], [Generate Sources = 33 ms], [Find R Classes = 19 ms], [Validate Annotations = 18 ms], [Extract Manifest = 6 ms], [Extract Annotations = 5 ms], 
+05:46:06.105 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:46:53.610 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:46:53.686 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:46:53.692 [Daemon Thread 11] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:46:53.697 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:46:53.698 [Daemon Thread 11] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:46:53.701 [Daemon Thread 11] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:46:53.720 [Daemon Thread 11] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:46:53.720 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:46:53.724 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:46:53.726 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:46:53.727 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:46:53.728 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:46:53.730 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:46:53.740 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:46:53.741 [Daemon Thread 11] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+05:46:53.767 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:46:53.775 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:46:53.777 [Daemon Thread 11] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:46:53.779 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:46:53.796 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:46:53.812 [Daemon Thread 11] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 125 ms], [Process Annotations = 43 ms], [Generate Sources = 37 ms], [Find R Classes = 14 ms], [Validate Annotations = 12 ms], [Extract Manifest = 6 ms], [Extract Annotations = 5 ms], 
+05:46:53.812 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:47:22.388 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:47:22.463 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:47:22.471 [Daemon Thread 11] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:47:22.477 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:47:22.478 [Daemon Thread 11] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:47:22.480 [Daemon Thread 11] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:47:22.500 [Daemon Thread 11] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:47:22.500 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:47:22.503 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:47:22.506 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:47:22.506 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:47:22.508 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:47:22.510 [Daemon Thread 11] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:47:22.525 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:47:22.525 [Daemon Thread 11] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:47:22.548 [Daemon Thread 11] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:47:22.554 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:47:22.556 [Daemon Thread 11] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:47:22.558 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:47:22.575 [Daemon Thread 11] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:47:22.589 [Daemon Thread 11] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 126 ms], [Process Annotations = 43 ms], [Generate Sources = 35 ms], [Find R Classes = 13 ms], [Validate Annotations = 12 ms], [Extract Annotations = 7 ms], [Extract Manifest = 7 ms], 
+05:47:22.589 [Daemon Thread 11] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:49:44.239 [Daemon Thread 12] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:49:44.344 [Daemon Thread 12] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:49:44.350 [Daemon Thread 12] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:49:44.355 [Daemon Thread 12] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:49:44.356 [Daemon Thread 12] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:49:44.358 [Daemon Thread 12] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:49:44.377 [Daemon Thread 12] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:49:44.378 [Daemon Thread 12] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:49:44.381 [Daemon Thread 12] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:49:44.384 [Daemon Thread 12] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:49:44.384 [Daemon Thread 12] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment]
+05:49:44.386 [Daemon Thread 12] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem()]
+05:49:44.388 [Daemon Thread 12] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:49:44.401 [Daemon Thread 12] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:49:44.401 [Daemon Thread 12] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:49:44.424 [Daemon Thread 12] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:49:44.431 [Daemon Thread 12] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:49:44.433 [Daemon Thread 12] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:49:44.435 [Daemon Thread 12] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:49:44.451 [Daemon Thread 12] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:49:44.464 [Daemon Thread 12] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 120 ms], [Process Annotations = 43 ms], [Generate Sources = 33 ms], [Find R Classes = 13 ms], [Validate Annotations = 11 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], 
+05:49:44.465 [Daemon Thread 12] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+05:57:36.515 [Daemon Thread 13] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+05:57:36.594 [Daemon Thread 13] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 16 elements
+05:57:36.601 [Daemon Thread 13] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+05:57:36.607 [Daemon Thread 13] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+05:57:36.608 [Daemon Thread 13] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+05:57:36.611 [Daemon Thread 13] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+05:57:36.629 [Daemon Thread 13] INFO  o.a.p.ModelValidator:42 - Validating elements
+05:57:36.629 [Daemon Thread 13] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:57:36.632 [Daemon Thread 13] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView]
+05:57:36.635 [Daemon Thread 13] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId]
+05:57:36.636 [Daemon Thread 13] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:57:36.638 [Daemon Thread 13] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [addItem(), edit()]
+05:57:36.640 [Daemon Thread 13] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews()]
+05:57:36.650 [Daemon Thread 13] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+05:57:36.651 [Daemon Thread 13] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+05:57:36.674 [Daemon Thread 13] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+05:57:36.681 [Daemon Thread 13] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 2
+05:57:36.683 [Daemon Thread 13] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+05:57:36.685 [Daemon Thread 13] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+05:57:36.700 [Daemon Thread 13] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+05:57:36.716 [Daemon Thread 13] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 122 ms], [Process Annotations = 40 ms], [Generate Sources = 35 ms], [Find R Classes = 13 ms], [Validate Annotations = 13 ms], [Extract Manifest = 7 ms], [Extract Annotations = 5 ms], 
+05:57:36.717 [Daemon Thread 13] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:07:51.49 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:07:51.127 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:07:51.156 [Daemon Thread 14] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:07:51.175 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:07:51.176 [Daemon Thread 14] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:07:51.192 [Daemon Thread 14] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:07:51.216 [Daemon Thread 14] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:07:51.216 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:07:51.219 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:07:51.222 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:07:51.223 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:07:51.225 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [edit(), addItem(), edit()]
+06:07:51.228 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:07:51.238 [Daemon Thread 14] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:07:51.238 [Daemon Thread 14] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+06:07:51.264 [Daemon Thread 14] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:07:51.287 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:07:51.289 [Daemon Thread 14] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:07:51.291 [Daemon Thread 14] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:07:51.311 [Daemon Thread 14] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:07:51.323 [Daemon Thread 14] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:07:51.339 [Daemon Thread 14] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 212 ms], [Process Annotations = 58 ms], [Generate Sources = 52 ms], [Find R Classes = 31 ms], [Extract Annotations = 26 ms], [Extract Manifest = 21 ms], [Validate Annotations = 14 ms], 
+06:07:51.339 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:08:42.732 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:08:42.809 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:08:42.816 [Daemon Thread 14] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:08:42.820 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:08:42.821 [Daemon Thread 14] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:08:42.824 [Daemon Thread 14] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:08:42.844 [Daemon Thread 14] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:08:42.844 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:08:42.848 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:08:42.851 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:08:42.851 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:08:42.853 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [edit(), addItem(), edit()]
+06:08:42.856 [Daemon Thread 14] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:08:42.866 [Daemon Thread 14] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:08:42.867 [Daemon Thread 14] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+06:08:42.890 [Daemon Thread 14] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:08:42.898 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:08:42.901 [Daemon Thread 14] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:08:42.902 [Daemon Thread 14] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:08:42.925 [Daemon Thread 14] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:08:42.938 [Daemon Thread 14] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:08:42.958 [Daemon Thread 14] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 149 ms], [Generate Sources = 60 ms], [Process Annotations = 41 ms], [Validate Annotations = 14 ms], [Find R Classes = 13 ms], [Extract Annotations = 5 ms], [Extract Manifest = 5 ms], 
+06:08:42.958 [Daemon Thread 14] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:14:25.41 [Daemon Thread 15] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:14:25.119 [Daemon Thread 15] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:14:25.125 [Daemon Thread 15] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:14:25.130 [Daemon Thread 15] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:14:25.131 [Daemon Thread 15] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:14:25.134 [Daemon Thread 15] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:14:25.152 [Daemon Thread 15] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:14:25.153 [Daemon Thread 15] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:14:25.156 [Daemon Thread 15] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:14:25.159 [Daemon Thread 15] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:14:25.159 [Daemon Thread 15] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:14:25.161 [Daemon Thread 15] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [edit(), addItem(), edit()]
+06:14:25.164 [Daemon Thread 15] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:14:25.174 [Daemon Thread 15] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:14:25.175 [Daemon Thread 15] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+06:14:25.197 [Daemon Thread 15] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:14:25.231 [Daemon Thread 15] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:14:25.233 [Daemon Thread 15] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:14:25.235 [Daemon Thread 15] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:14:25.256 [Daemon Thread 15] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:14:25.268 [Daemon Thread 15] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:14:25.285 [Daemon Thread 15] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 165 ms], [Process Annotations = 66 ms], [Generate Sources = 53 ms], [Find R Classes = 13 ms], [Validate Annotations = 13 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], 
+06:14:25.285 [Daemon Thread 15] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:25:46.658 [Daemon Thread 16] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:25:46.758 [Daemon Thread 16] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:25:46.788 [Daemon Thread 16] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:25:46.962 [Daemon Thread 16] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:25:47.20 [Daemon Thread 16] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:25:47.79 [Daemon Thread 16] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:25:47.156 [Daemon Thread 16] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:25:47.156 [Daemon Thread 16] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:25:47.159 [Daemon Thread 16] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:25:47.163 [Daemon Thread 16] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:25:47.163 [Daemon Thread 16] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:25:47.165 [Daemon Thread 16] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:25:47.169 [Daemon Thread 16] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:25:47.180 [Daemon Thread 16] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:25:47.181 [Daemon Thread 16] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.EditTermFragment]
+06:25:47.240 [Daemon Thread 16] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:25:47.264 [Daemon Thread 16] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:25:47.266 [Daemon Thread 16] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:25:47.268 [Daemon Thread 16] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:25:47.293 [Daemon Thread 16] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:25:47.309 [Daemon Thread 16] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:25:47.328 [Daemon Thread 16] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 570 ms], [Extract Manifest = 175 ms], [Find R Classes = 127 ms], [Process Annotations = 94 ms], [Generate Sources = 64 ms], [Extract Annotations = 27 ms], [Validate Annotations = 15 ms], 
+06:25:47.328 [Daemon Thread 16] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:31:42.367 [Daemon Thread 17] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:31:42.468 [Daemon Thread 17] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:31:42.475 [Daemon Thread 17] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:31:42.480 [Daemon Thread 17] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:31:42.481 [Daemon Thread 17] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:31:42.484 [Daemon Thread 17] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:31:42.502 [Daemon Thread 17] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:31:42.503 [Daemon Thread 17] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:31:42.506 [Daemon Thread 17] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:31:42.509 [Daemon Thread 17] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:31:42.510 [Daemon Thread 17] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:31:42.512 [Daemon Thread 17] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:31:42.515 [Daemon Thread 17] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:31:42.526 [Daemon Thread 17] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:31:42.526 [Daemon Thread 17] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.EditTermFragment]
+06:31:42.549 [Daemon Thread 17] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:31:42.558 [Daemon Thread 17] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:31:42.560 [Daemon Thread 17] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:31:42.561 [Daemon Thread 17] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:31:42.583 [Daemon Thread 17] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:31:42.597 [Daemon Thread 17] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:31:42.613 [Daemon Thread 17] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 145 ms], [Generate Sources = 56 ms], [Process Annotations = 41 ms], [Validate Annotations = 14 ms], [Find R Classes = 12 ms], [Extract Manifest = 7 ms], [Extract Annotations = 4 ms], 
+06:31:42.614 [Daemon Thread 17] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:34:13.914 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:34:13.986 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:34:13.992 [Daemon Thread 18] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:34:13.997 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:34:13.998 [Daemon Thread 18] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:34:14.1 [Daemon Thread 18] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:34:14.22 [Daemon Thread 18] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:34:14.22 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:34:14.27 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:34:14.31 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:34:14.32 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:34:14.34 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:34:14.37 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:34:14.49 [Daemon Thread 18] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:34:14.50 [Daemon Thread 18] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:34:14.72 [Daemon Thread 18] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:34:14.80 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:34:14.82 [Daemon Thread 18] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:34:14.84 [Daemon Thread 18] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:34:14.105 [Daemon Thread 18] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:34:14.117 [Daemon Thread 18] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:34:14.134 [Daemon Thread 18] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 148 ms], [Generate Sources = 54 ms], [Process Annotations = 42 ms], [Validate Annotations = 17 ms], [Find R Classes = 14 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], 
+06:34:14.134 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:34:53.640 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:34:53.719 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:34:53.724 [Daemon Thread 18] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:34:53.728 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:34:53.729 [Daemon Thread 18] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:34:53.732 [Daemon Thread 18] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:34:53.752 [Daemon Thread 18] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:34:53.752 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:34:53.756 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:34:53.759 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:34:53.759 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:34:53.761 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:34:53.765 [Daemon Thread 18] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:34:53.774 [Daemon Thread 18] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:34:53.775 [Daemon Thread 18] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.EditTermFragment]
+06:34:53.800 [Daemon Thread 18] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:34:53.809 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:34:53.811 [Daemon Thread 18] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:34:53.813 [Daemon Thread 18] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:34:53.834 [Daemon Thread 18] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:34:53.846 [Daemon Thread 18] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:34:53.870 [Daemon Thread 18] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 151 ms], [Generate Sources = 61 ms], [Process Annotations = 44 ms], [Validate Annotations = 14 ms], [Find R Classes = 13 ms], [Extract Manifest = 5 ms], [Extract Annotations = 3 ms], 
+06:34:53.871 [Daemon Thread 18] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:36:27.334 [Daemon Thread 19] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:36:27.402 [Daemon Thread 19] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:36:27.407 [Daemon Thread 19] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:36:27.412 [Daemon Thread 19] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:36:27.413 [Daemon Thread 19] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:36:27.416 [Daemon Thread 19] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:36:27.433 [Daemon Thread 19] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:36:27.434 [Daemon Thread 19] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:36:27.437 [Daemon Thread 19] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:36:27.441 [Daemon Thread 19] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:36:27.441 [Daemon Thread 19] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:36:27.443 [Daemon Thread 19] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:36:27.447 [Daemon Thread 19] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:36:27.456 [Daemon Thread 19] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:36:27.457 [Daemon Thread 19] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+06:36:27.480 [Daemon Thread 19] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:36:27.491 [Daemon Thread 19] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:36:27.493 [Daemon Thread 19] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:36:27.495 [Daemon Thread 19] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:36:27.516 [Daemon Thread 19] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:36:27.529 [Daemon Thread 19] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:36:27.545 [Daemon Thread 19] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 143 ms], [Generate Sources = 54 ms], [Process Annotations = 44 ms], [Validate Annotations = 14 ms], [Find R Classes = 12 ms], [Extract Manifest = 6 ms], [Extract Annotations = 3 ms], 
+06:36:27.545 [Daemon Thread 19] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:47:10.488 [Daemon Thread 22] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:47:10.559 [Daemon Thread 22] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:47:10.565 [Daemon Thread 22] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:47:10.570 [Daemon Thread 22] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:47:10.571 [Daemon Thread 22] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:47:10.574 [Daemon Thread 22] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:47:10.591 [Daemon Thread 22] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:47:10.592 [Daemon Thread 22] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:47:10.595 [Daemon Thread 22] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:47:10.599 [Daemon Thread 22] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:47:10.599 [Daemon Thread 22] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:47:10.601 [Daemon Thread 22] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:47:10.604 [Daemon Thread 22] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:47:10.614 [Daemon Thread 22] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:47:10.615 [Daemon Thread 22] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+06:47:10.638 [Daemon Thread 22] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:47:10.650 [Daemon Thread 22] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:47:10.652 [Daemon Thread 22] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:47:10.654 [Daemon Thread 22] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:47:10.675 [Daemon Thread 22] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:47:10.687 [Daemon Thread 22] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:47:10.703 [Daemon Thread 22] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 144 ms], [Generate Sources = 53 ms], [Process Annotations = 45 ms], [Validate Annotations = 14 ms], [Find R Classes = 13 ms], [Extract Manifest = 6 ms], [Extract Annotations = 3 ms], 
+06:47:10.703 [Daemon Thread 22] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:48:51.846 [Daemon Thread 23] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:48:51.919 [Daemon Thread 23] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:48:51.925 [Daemon Thread 23] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:48:51.929 [Daemon Thread 23] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:48:51.930 [Daemon Thread 23] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:48:51.933 [Daemon Thread 23] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:48:51.951 [Daemon Thread 23] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:48:51.951 [Daemon Thread 23] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:48:51.955 [Daemon Thread 23] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:48:51.958 [Daemon Thread 23] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:48:51.959 [Daemon Thread 23] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:48:51.961 [Daemon Thread 23] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:48:51.964 [Daemon Thread 23] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:48:51.974 [Daemon Thread 23] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:48:51.974 [Daemon Thread 23] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+06:48:51.998 [Daemon Thread 23] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:48:52.7 [Daemon Thread 23] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:48:52.9 [Daemon Thread 23] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:48:52.10 [Daemon Thread 23] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:48:52.32 [Daemon Thread 23] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:48:52.44 [Daemon Thread 23] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:48:52.60 [Daemon Thread 23] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 141 ms], [Generate Sources = 53 ms], [Process Annotations = 43 ms], [Validate Annotations = 14 ms], [Find R Classes = 12 ms], [Extract Manifest = 6 ms], [Extract Annotations = 3 ms], 
+06:48:52.60 [Daemon Thread 23] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+06:53:49.88 [Daemon Thread 24] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+06:53:49.160 [Daemon Thread 24] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+06:53:49.165 [Daemon Thread 24] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+06:53:49.170 [Daemon Thread 24] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+06:53:49.172 [Daemon Thread 24] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+06:53:49.175 [Daemon Thread 24] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+06:53:49.198 [Daemon Thread 24] INFO  o.a.p.ModelValidator:42 - Validating elements
+06:53:49.199 [Daemon Thread 24] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:53:49.202 [Daemon Thread 24] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+06:53:49.205 [Daemon Thread 24] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+06:53:49.206 [Daemon Thread 24] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+06:53:49.211 [Daemon Thread 24] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+06:53:49.216 [Daemon Thread 24] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+06:53:49.226 [Daemon Thread 24] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+06:53:49.226 [Daemon Thread 24] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.EditTermFragment]
+06:53:49.250 [Daemon Thread 24] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+06:53:49.258 [Daemon Thread 24] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+06:53:49.260 [Daemon Thread 24] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+06:53:49.262 [Daemon Thread 24] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+06:53:49.283 [Daemon Thread 24] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+06:53:49.296 [Daemon Thread 24] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+06:53:49.315 [Daemon Thread 24] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 155 ms], [Generate Sources = 57 ms], [Process Annotations = 41 ms], [Validate Annotations = 20 ms], [Find R Classes = 17 ms], [Extract Manifest = 6 ms], [Extract Annotations = 3 ms], 
+06:53:49.316 [Daemon Thread 24] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+07:03:11.490 [Daemon Thread 25] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+07:03:11.568 [Daemon Thread 25] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 17 elements
+07:03:11.597 [Daemon Thread 25] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+07:03:11.638 [Daemon Thread 25] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+07:03:11.641 [Daemon Thread 25] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+07:03:11.667 [Daemon Thread 25] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+07:03:11.690 [Daemon Thread 25] INFO  o.a.p.ModelValidator:42 - Validating elements
+07:03:11.690 [Daemon Thread 25] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+07:03:11.693 [Daemon Thread 25] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+07:03:11.697 [Daemon Thread 25] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+07:03:11.697 [Daemon Thread 25] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+07:03:11.699 [Daemon Thread 25] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+07:03:11.702 [Daemon Thread 25] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+07:03:11.712 [Daemon Thread 25] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+07:03:11.713 [Daemon Thread 25] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+07:03:11.737 [Daemon Thread 25] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+07:03:11.745 [Daemon Thread 25] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+07:03:11.747 [Daemon Thread 25] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+07:03:11.749 [Daemon Thread 25] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+07:03:11.770 [Daemon Thread 25] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+07:03:11.782 [Daemon Thread 25] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+07:03:11.806 [Daemon Thread 25] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 238 ms], [Generate Sources = 61 ms], [Extract Manifest = 43 ms], [Find R Classes = 42 ms], [Process Annotations = 42 ms], [Extract Annotations = 26 ms], [Validate Annotations = 14 ms], 
+07:03:11.806 [Daemon Thread 25] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:16:05.7 [Daemon] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:16:05.544 [Daemon] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 18 elements
+21:16:05.648 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:16:06.500 [Daemon] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:16:06.515 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:16:06.542 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:16:06.824 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:16:06.825 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:16:06.842 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+21:16:06.861 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+21:16:06.865 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:16:06.869 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+21:16:06.882 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+21:16:06.916 [Daemon] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:16:06.916 [Daemon] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:16:06.983 [Daemon] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:16:07.16 [Daemon] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+21:16:07.25 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:16:07.27 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+21:16:07.133 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:16:07.196 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+21:16:07.278 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 1734 ms], [Extract Manifest = 867 ms], [Find R Classes = 306 ms], [Generate Sources = 262 ms], [Process Annotations = 133 ms], [Extract Annotations = 88 ms], [Validate Annotations = 59 ms], 
+21:16:07.278 [Daemon] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:24:53.131 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:24:53.214 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 18 elements
+21:24:53.236 [Daemon Thread 3] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:24:53.400 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:24:53.402 [Daemon Thread 3] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:24:53.407 [Daemon Thread 3] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:24:53.462 [Daemon Thread 3] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:24:53.463 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:24:53.469 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+21:24:53.493 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+21:24:53.493 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:24:53.496 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+21:24:53.500 [Daemon Thread 3] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+21:24:53.511 [Daemon Thread 3] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:24:53.512 [Daemon Thread 3] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.EditTermFragment]
+21:24:53.536 [Daemon Thread 3] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:24:53.546 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+21:24:53.548 [Daemon Thread 3] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:24:53.550 [Daemon Thread 3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+21:24:53.594 [Daemon Thread 3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:24:53.620 [Daemon Thread 3] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+21:24:53.647 [Daemon Thread 3] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 433 ms], [Extract Manifest = 165 ms], [Generate Sources = 101 ms], [Find R Classes = 51 ms], [Process Annotations = 46 ms], [Validate Annotations = 38 ms], [Extract Annotations = 20 ms], 
+21:24:53.647 [Daemon Thread 3] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+21:29:55.620 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+21:29:55.743 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 18 elements
+21:29:55.765 [Daemon Thread 4] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+21:29:55.770 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+21:29:55.771 [Daemon Thread 4] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+21:29:55.775 [Daemon Thread 4] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+21:29:55.832 [Daemon Thread 4] INFO  o.a.p.ModelValidator:42 - Validating elements
+21:29:55.832 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:29:55.838 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, descriptionTextView, tagsTextView]
+21:29:55.852 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+21:29:55.853 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+21:29:55.858 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+21:29:55.869 [Daemon Thread 4] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+21:29:55.896 [Daemon Thread 4] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+21:29:55.897 [Daemon Thread 4] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.MathListFragment]
+21:29:55.922 [Daemon Thread 4] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+21:29:55.932 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+21:29:55.934 [Daemon Thread 4] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+21:29:55.936 [Daemon Thread 4] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+21:29:55.961 [Daemon Thread 4] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+21:29:55.974 [Daemon Thread 4] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+21:29:55.990 [Daemon Thread 4] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 247 ms], [Process Annotations = 61 ms], [Generate Sources = 58 ms], [Validate Annotations = 40 ms], [Find R Classes = 36 ms], [Extract Annotations = 20 ms], [Extract Manifest = 6 ms], 
+21:29:55.991 [Daemon Thread 4] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing

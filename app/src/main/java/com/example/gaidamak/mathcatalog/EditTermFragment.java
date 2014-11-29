@@ -6,6 +6,7 @@ import android.widget.TextView;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermContentValues;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermCursor;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermSelection;
+import com.iangclifton.android.floatlabel.FloatLabel;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
@@ -21,22 +22,22 @@ public class EditTermFragment extends Fragment {
     Long termId = -1l;
 
     @ViewById(R.id.title_edittext)
-    TextView titleTextView;
+    FloatLabel titleTextView;
     @ViewById(R.id.formula_edittext)
-    TextView formulaTextView;
+    FloatLabel formulaTextView;
 
     @ViewById(R.id.description_edittext)
-    TextView descriptionTextView;
+    FloatLabel descriptionTextView;
     @ViewById(R.id.tags_edittext)
-    TextView tagsTextView;
+    FloatLabel tagsTextView;
 
     @OptionsItem(R.id.action_save)
     void save() {
         MathTermContentValues contentValues = new MathTermContentValues();
-        contentValues.putMathTerm(titleTextView.getText().toString());
-        contentValues.putMathFormula(formulaTextView.getText().toString());
-        contentValues.putDescription(descriptionTextView.getText().toString());
-        contentValues.putTags(tagsTextView.getText().toString());
+        contentValues.putMathTerm(titleTextView.getEditText().getText().toString());
+        contentValues.putMathFormula(formulaTextView.getEditText().getText().toString());
+        contentValues.putDescription(descriptionTextView.getEditText().getText().toString());
+        contentValues.putTags(tagsTextView.getEditText().getText().toString());
         if (termId != -1) {
             contentValues.update(getActivity().getContentResolver(), new MathTermSelection().id(termId));
         } else {
@@ -63,10 +64,10 @@ public class EditTermFragment extends Fragment {
 
         getActivity().getActionBar().setTitle(cursor.getMathTerm());
 
-        titleTextView.setText(cursor.getMathTerm());
-        formulaTextView.setText(cursor.getMathFormula());
+        titleTextView.getEditText().setText(cursor.getMathTerm());
+        formulaTextView.getEditText().setText(cursor.getMathFormula());
 
-        descriptionTextView.setText(cursor.getDescription());
-        tagsTextView.setText(cursor.getTags());
+        descriptionTextView.getEditText().setText(cursor.getDescription());
+        tagsTextView.getEditText().setText(cursor.getTags());
     }
 }
