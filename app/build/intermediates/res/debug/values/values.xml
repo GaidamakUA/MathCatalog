@@ -13,7 +13,11 @@
     <eat-comment/>
     <string name="action_add">Add</string>
     <string name="app_name">MathCatalog</string>
+    <string name="description_hint">Description</string>
+    <string name="formula_hint">Formula</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="math_term_hint">Math term</string>
+    <string name="tags_hint">Tags</string>
     <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
