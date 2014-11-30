@@ -18,7 +18,7 @@
         android:textStyle="italic"
         android:layout_height="wrap_content"
         android:text="U = I * R"
-        android:textColor="#b4b4b4"
+        android:textColor="#555"
         android:layout_marginTop="8dp"
         android:typeface="serif"/>
 

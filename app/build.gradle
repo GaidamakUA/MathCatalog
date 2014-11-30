@@ -7,6 +7,12 @@ buildscript {
     }
 }
 
+repositories {
+    maven {
+        url "https://repo.commonsware.com.s3.amazonaws.com"
+    }
+}
+
 apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
@@ -40,5 +46,9 @@ dependencies {
     apt 'org.androidannotations:androidannotations:3.1'
     compile 'org.androidannotations:androidannotations-api:3.1'
     compile 'com.iangclifton.android:floatlabel:1.0.2'
+    compile 'com.commonsware.cwac:richedit:0.3.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile project(':EnhancedListView')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

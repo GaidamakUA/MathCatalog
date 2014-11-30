@@ -3,6 +3,7 @@ package com.example.gaidamak.mathcatalog;
 import android.app.Fragment;
 import android.widget.TextView;
 
+import com.commonsware.cwac.richedit.RichEditText;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermContentValues;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermCursor;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermSelection;
@@ -69,5 +70,10 @@ public class EditTermFragment extends Fragment {
 
         descriptionTextView.getEditText().setText(cursor.getDescription());
         tagsTextView.getEditText().setText(cursor.getTags());
+
+        RichEditText descriptionEditor = (RichEditText) descriptionTextView.getEditText();
+        descriptionEditor.setIsShowing(false);
+        descriptionEditor.enableActionModes(true);
+        descriptionEditor.setKeyboardShortcutsEnabled(false);
     }
 }
