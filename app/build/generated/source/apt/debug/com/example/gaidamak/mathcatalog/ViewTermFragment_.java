@@ -72,8 +72,8 @@ public final class ViewTermFragment_
     @Override
     public void onViewChanged(HasViews hasViews) {
         formulaTextView = ((TextView) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.formula_textview));
-        descriptionTextView = ((TextView) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_textview));
         tagsTextView = ((TextView) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_textview));
+        descriptionTextView = ((TextView) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_textview));
         initViews();
     }
 

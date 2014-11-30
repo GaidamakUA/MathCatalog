@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/RichTextEditor/richedit/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">RichTextEditor</string>
+    <string name="bold">Bold</string>
+    <string name="center">Center</string>
+    <string name="effects">Effects</string>
+    <string name="fonts">Fonts</string>
+    <string name="format">Format</string>
+    <string name="hello">Hello World!</string>
+    <string name="italic">Italic</string>
+    <string name="lines">Lines</string>
+    <string name="mono">Monospace</string>
+    <string name="normal">Normal</string>
+    <string name="opposite">Opposite</string>
+    <string name="sans">Sans Serif</string>
+    <string name="serif">Serif</string>
+    <string name="strikethrough">Strikethrough</string>
+    <string name="subscript">Subscript</string>
+    <string name="superscript">Superscript</string>
+    <string name="underline">Underline</string>
+
+</resources>

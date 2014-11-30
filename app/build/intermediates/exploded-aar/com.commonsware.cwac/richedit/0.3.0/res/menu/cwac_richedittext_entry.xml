@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/cwac_richedittext_format"
+		android:showAsAction="always|withText"
+		android:title="@string/format" android:icon="@drawable/ic_action_format_dark">
+	</item>
+
+</menu><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/RichTextEditor/richedit/res/menu/cwac_richedittext_entry.xml -->

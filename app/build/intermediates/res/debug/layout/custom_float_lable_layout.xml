@@ -7,7 +7,7 @@
         android:lines="1"
         android:textIsSelectable="true"
         android:textAppearance="?android:attr/textAppearanceSmall" />
-    <EditText
+    <com.commonsware.cwac.richedit.RichEditText
         android:gravity="top"
         android:id="@id/edit_text"
         android:layout_width="match_parent"

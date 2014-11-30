@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/cwac_richedittext_normal"
+		android:showAsAction="always|withText"
+		android:title="@string/normal">
+	</item>
+  <item
+    android:id="@+id/cwac_richedittext_center"
+    android:showAsAction="always|withText"
+    android:title="@string/center">
+  </item>
+	 <item
+    android:id="@+id/cwac_richedittext_opposite"
+    android:showAsAction="always|withText"
+    android:title="@string/opposite">
+  </item>
+  
+</menu><!-- From: file:/home/mmurphy/stuff/CommonsWare/projects/CWAC/RichTextEditor/richedit/res/menu/cwac_richedittext_lines.xml --><!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.commonsware.cwac/richedit/0.3.0/res/menu/cwac_richedittext_lines.xml -->

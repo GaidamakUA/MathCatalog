@@ -13,13 +13,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import com.example.gaidamak.mathcatalog.R.layout;
+import de.timroes.android.listview.EnhancedListView;
 import org.androidannotations.api.builder.FragmentBuilder;
 import org.androidannotations.api.view.HasViews;
+import org.androidannotations.api.view.OnViewChangedListener;
 import org.androidannotations.api.view.OnViewChangedNotifier;
 
 public final class MathListFragment_
     extends com.example.gaidamak.mathcatalog.MathListFragment
-    implements HasViews
+    implements HasViews, OnViewChangedListener
 {
 
     private final OnViewChangedNotifier onViewChangedNotifier_ = new OnViewChangedNotifier();
@@ -51,6 +53,7 @@ public final class MathListFragment_
     }
 
     private void init_(Bundle savedInstanceState) {
+        OnViewChangedNotifier.registerOnViewChangedListener(this);
         setHasOptionsMenu(true);
     }
 
@@ -62,6 +65,11 @@ public final class MathListFragment_
 
     public static MathListFragment_.FragmentBuilder_ builder() {
         return new MathListFragment_.FragmentBuilder_();
+    }
+
+    @Override
+    public void onViewChanged(HasViews hasViews) {
+        listView = ((EnhancedListView) hasViews.findViewById(android.R.id.list));
     }
 
     @Override

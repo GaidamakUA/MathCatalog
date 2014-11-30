@@ -11,17 +11,17 @@ public final class R {
 		public static final int floatLabelColor = 0x7f010000;
 	}
 	public static final class drawable {
-		public static final int ic_launcher = 0x7f020002;
+		public static final int ic_launcher = 0x7f020009;
 	}
 	public static final class id {
-		public static final int edit_text = 0x7f060000;
-		public static final int float_label = 0x7f060001;
+		public static final int edit_text = 0x7f080000;
+		public static final int float_label = 0x7f080001;
 	}
 	public static final class layout {
-		public static final int float_label = 0x7f030003;
+		public static final int float_label = 0x7f030004;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f070001;
+		public static final int app_name = 0x7f090001;
 	}
 	public static final class styleable {
 		public static final int[] FloatLabel = { 0x0101009a, 0x010100e1, 0x010100e2, 0x010100e3, 0x010100e4, 0x010100f2, 0x0101014f, 0x01010150, 0x01010220, 0x0101033c, 0x7f010000 };
