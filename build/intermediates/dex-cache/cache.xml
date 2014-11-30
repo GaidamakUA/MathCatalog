@@ -2,16 +2,46 @@
 <pre-dex-items>
 
     <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-107567be0ba2bc1f7d96bb3610fbe421e6ff9232.jar"
+        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.iangclifton.android/floatlabel/1.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="f2ee15cbee368488b324a1fb14f94db283a47313"/>
+    <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-2b69c5fd66974d6ec2ff0e35d5ab4a06c75d4aea.jar"
+        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea"/>
+    <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/library-2.4.0-78173b2ea7b96c1835435fbeae85c0270498bb60.jar"
+        jar="/home/gaidamak/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
+    <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/gson-2.3.1-77b5b332eadbce513f83d28dd54ece9aca8d39c0.jar"
+        jar="/home/gaidamak/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757"/>
+    <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-220c4bb9e6b6a09d60ed7a729705e614579f9c77.jar"
+        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/de.timroes.android/EnhancedListView/0.3.4/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="48e9c7cb37f2dfaed526ef05c09b9f772efc3753"/>
+    <item
         dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.1-834401d755ca16b30d82b75fa86503993568ca6d.jar"
         jar="/home/gaidamak/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.1/ac33174269a767fcbf3a944cdb3d52e07ef93bee/androidannotations-api-3.1.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="ac33174269a767fcbf3a944cdb3d52e07ef93bee"/>
     <item
-        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-107567be0ba2bc1f7d96bb3610fbe421e6ff9232.jar"
-        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.iangclifton.android/floatlabel/1.0.2/classes.jar"
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-10a93695b716c005dff9edf1c696db21bf6549b2.jar"
+        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.commonsware.cwac/richedit/0.3.0/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="f2ee15cbee368488b324a1fb14f94db283a47313"/>
+        sha1="0cd244e55ab09953a1e898f7712158832ab7665e"/>
 
 </pre-dex-items>

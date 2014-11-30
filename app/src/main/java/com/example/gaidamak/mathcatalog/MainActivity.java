@@ -6,6 +6,8 @@ import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 
 public class MainActivity extends Activity implements FragmentManagingActivity {
@@ -27,6 +29,8 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
     @Override
     public void viewMathTerm(long id) {
         getFragmentManager().beginTransaction()
+                .setCustomAnimations(R.animator.slide_in_left, R.animator.slide_out_left,
+                        R.animator.slide_in_right, R.animator.slide_out_right)
                 .replace(R.id.container, ViewTermFragment_.builder().termId(id).build())
                 .addToBackStack(null)
                 .commit();
@@ -35,6 +39,8 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
     @Override
     public void editMathTerm(long id) {
         getFragmentManager().beginTransaction()
+                .setCustomAnimations(R.animator.slide_in_left, R.animator.slide_out_left,
+                        R.animator.slide_in_right, R.animator.slide_out_right)
                 .replace(R.id.container, EditTermFragment_.builder().termId(id).build())
                 .addToBackStack(null)
                 .commit();
@@ -43,6 +49,8 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
     @Override
     public void addNewTerm() {
         getFragmentManager().beginTransaction()
+                .setCustomAnimations(R.animator.slide_in_left, R.animator.slide_out_left,
+                        R.animator.slide_in_right, R.animator.slide_out_right)
                 .replace(R.id.container, EditTermFragment_.builder().build())
                 .addToBackStack(null)
                 .commit();

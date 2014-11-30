@@ -71,8 +71,8 @@ public final class EditTermFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        tagsTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_edittext));
         descriptionTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_edittext));
+        tagsTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_edittext));
         formulaTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.formula_edittext));
         titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
         initViews();
@@ -100,12 +100,12 @@ public final class EditTermFragment_
             return true;
         }
         int itemId_ = item.getItemId();
-        if (itemId_ == com.example.gaidamak.mathcatalog.R.id.action_cancel) {
-            cancel();
-            return true;
-        }
         if (itemId_ == com.example.gaidamak.mathcatalog.R.id.action_save) {
             save();
+            return true;
+        }
+        if (itemId_ == com.example.gaidamak.mathcatalog.R.id.action_cancel) {
+            cancel();
             return true;
         }
         return false;

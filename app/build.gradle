@@ -49,6 +49,7 @@ dependencies {
     compile 'com.commonsware.cwac:richedit:0.3.0'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.google.code.gson:gson:2.3.1'
     compile project(':EnhancedListView')
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
