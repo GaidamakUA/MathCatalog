@@ -12,6 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import com.example.gaidamak.mathcatalog.R.layout;
 import com.iangclifton.android.floatlabel.FloatLabel;
 import org.androidannotations.api.builder.FragmentBuilder;
@@ -71,10 +72,10 @@ public final class EditTermFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        descriptionTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_edittext));
+        descriptionTextView = ((EditText) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_edittext));
+        titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
         tagsTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_edittext));
         formulaTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.formula_edittext));
-        titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
         initViews();
     }
 

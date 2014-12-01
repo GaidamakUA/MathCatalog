@@ -3,6 +3,9 @@ package com.example.gaidamak.mathcatalog;
 import android.database.Cursor;
 import android.database.CursorWrapper;
 
+/**
+ * Cursor wrapper which supports deletion
+ */
 public class SwipeToDeleteCursorWrapper extends CursorWrapper
 {
     private int mVirtualPosition;

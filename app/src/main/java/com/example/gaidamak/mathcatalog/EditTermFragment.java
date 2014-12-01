@@ -1,6 +1,7 @@
 package com.example.gaidamak.mathcatalog;
 
 import android.app.Fragment;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.commonsware.cwac.richedit.RichEditText;
@@ -28,7 +29,8 @@ public class EditTermFragment extends Fragment {
     FloatLabel formulaTextView;
 
     @ViewById(R.id.description_edittext)
-    FloatLabel descriptionTextView;
+    EditText descriptionTextView;
+//    FloatLabel descriptionTextView;
     @ViewById(R.id.tags_edittext)
     FloatLabel tagsTextView;
 
@@ -37,7 +39,7 @@ public class EditTermFragment extends Fragment {
         MathTermContentValues contentValues = new MathTermContentValues();
         contentValues.putMathTerm(titleTextView.getEditText().getText().toString());
         contentValues.putMathFormula(formulaTextView.getEditText().getText().toString());
-        contentValues.putDescription(descriptionTextView.getEditText().getText().toString());
+        contentValues.putDescription(descriptionTextView.getText().toString());
         contentValues.putTags(tagsTextView.getEditText().getText().toString());
         if (termId != -1) {
             contentValues.update(getActivity().getContentResolver(), new MathTermSelection().id(termId));
@@ -68,12 +70,13 @@ public class EditTermFragment extends Fragment {
         titleTextView.getEditText().setText(cursor.getMathTerm());
         formulaTextView.getEditText().setText(cursor.getMathFormula());
 
-        descriptionTextView.getEditText().setText(cursor.getDescription());
+        descriptionTextView.setText(cursor.getDescription());
         tagsTextView.getEditText().setText(cursor.getTags());
 
-        RichEditText descriptionEditor = (RichEditText) descriptionTextView.getEditText();
-        descriptionEditor.setIsShowing(false);
-        descriptionEditor.enableActionModes(true);
-        descriptionEditor.setKeyboardShortcutsEnabled(false);
+        RichEditText descriptionEditor = (RichEditText) descriptionTextView;
+//        descriptionEditor.
+//        descriptionEditor.setIsShowing(false);
+//        descriptionEditor.enableActionModes(true);
+//        descriptionEditor.setKeyboardShortcutsEnabled(false);
     }
 }

@@ -1,7 +1,6 @@
 package com.example.gaidamak.mathcatalog;
 
 import android.app.Fragment;
-import android.app.ListFragment;
 import android.app.LoaderManager;
 import android.content.CursorLoader;
 import android.content.Loader;
@@ -11,7 +10,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.SimpleCursorAdapter;
 
@@ -27,6 +25,10 @@ import org.androidannotations.annotations.ViewById;
 
 import de.timroes.android.listview.EnhancedListView;
 
+/**
+ * Fragment with list of all available Math terms
+ * Layout and menu are inflated from XML
+ */
 @EFragment(R.layout.fragment_main)
 @OptionsMenu(R.menu.add_item)
 public class MathListFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
@@ -70,10 +72,11 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         listView.setDismissCallback(new EnhancedListView.OnDismissCallback() {
             @Override
             public EnhancedListView.Undoable onDismiss(EnhancedListView listView, int position) {
+                long id = mAdapter.getItemId(position);
                 SwipeToDeleteCursorWrapper cursorWrapper =
                         new SwipeToDeleteCursorWrapper(mAdapter.getCursor(), position);
                 mAdapter.swapCursor(cursorWrapper);
-                long id = mAdapter.getItemId(position);
+                // I have no idea why -1. Probably library bug
                 new MathTermSelection().id(id).delete(getActivity().getContentResolver());
                 return null;
             }

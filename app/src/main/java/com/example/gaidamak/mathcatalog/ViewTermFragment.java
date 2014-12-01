@@ -13,12 +13,22 @@ import org.androidannotations.annotations.OptionsItem;
 import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
 
+/**
+ * Fragment where user can watch details of MathTerm
+ * Layout and menu are inflated from XML
+ */
 @EFragment(R.layout.fragment_view_term)
 @OptionsMenu(R.menu.fragment_view_term_menu)
 public class ViewTermFragment extends Fragment {
+    /**
+     * Argument _ID of term, which is passed to fragment from activity via
+     * {@link com.example.gaidamak.mathcatalog.ViewTermFragment_.FragmentBuilder_}
+     */
     @FragmentArg
     Long termId;
 
+    // Views inject by id.
+    // Injection takes place ASAP please refer to AndroidAnnotation documentation
     @ViewById(R.id.formula_textview)
     TextView formulaTextView;
     @ViewById(R.id.description_textview)
@@ -26,16 +36,28 @@ public class ViewTermFragment extends Fragment {
     @ViewById(R.id.tags_textview)
     TextView tagsTextView;
 
+    /**
+     * Invoking editing of current MathTerm
+     * Handler of click on MenuItem.
+     * Menu item is injected by id.
+     * @see org.androidannotations.annotations.OptionsItem
+     */
     @OptionsItem(R.id.action_edit)
     void edit() {
         ((FragmentManagingActivity) getActivity()).editMathTerm(termId);
     }
 
+    /**
+     * Initialize fields with content
+     * @see org.androidannotations.annotations.AfterViews
+     */
     @AfterViews
     void initViews() {
         MathTermSelection selection = new MathTermSelection();
         MathTermCursor cursor = selection.id(termId).query(getActivity().getContentResolver());
-        assert cursor.getCount() == 1;
+        if(cursor.getCount() != 1) {
+            throw new RuntimeException("Unexpected number of items:" + cursor.getCount());
+        }
         cursor.moveToFirst();
 
         getActivity().getActionBar().setTitle(cursor.getMathTerm());
