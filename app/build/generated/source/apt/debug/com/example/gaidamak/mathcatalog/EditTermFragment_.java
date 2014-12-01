@@ -73,8 +73,8 @@ public final class EditTermFragment_
     @Override
     public void onViewChanged(HasViews hasViews) {
         descriptionTextView = ((EditText) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_edittext));
-        titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
         tagsTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_edittext));
+        titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
         formulaTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.formula_edittext));
         initViews();
     }

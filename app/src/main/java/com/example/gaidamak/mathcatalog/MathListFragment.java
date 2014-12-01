@@ -26,22 +26,30 @@ import org.androidannotations.annotations.ViewById;
 import de.timroes.android.listview.EnhancedListView;
 
 /**
- * Fragment with list of all available Math terms
+ * Fragment with list of all available Math terms.
+ * Implements {@link android.app.LoaderManager.LoaderCallbacks}
+ * so list can be updated instantly after DB change.
  * Layout and menu are inflated from XML
  */
 @EFragment(R.layout.fragment_main)
 @OptionsMenu(R.menu.add_item)
 public class MathListFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         SearchView.OnQueryTextListener{
-    @ViewById(android.R.id.list)
-    EnhancedListView listView;
-
     private static final String TAG = "MathListFragment";
     private static final String FILTER = "filter";
 
-    SimpleCursorAdapter mAdapter;
-    FragmentManagingActivity activity;
+    /**
+     * Injected listView where all math terms are displayed as listItems
+     */
+    @ViewById(android.R.id.list)
+    EnhancedListView listView;
 
+    private SimpleCursorAdapter mAdapter;
+    private FragmentManagingActivity activity;
+
+    /**
+     * Wrapper for adapter. This is the thing to make listItems animated.
+     */
     private AnimationAdapter mAnimAdapter;
 
     @Override
@@ -51,17 +59,19 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         getActivity().getActionBar().setTitle(getActivity().getResources().getString(R.string.app_name));
 
         activity = (FragmentManagingActivity) getActivity();
+        // Projection
+        String[] from = {MathTermColumns.MATH_TERM, MathTermColumns.MATH_FORMULA};
+        int[] to = { R.id.term_name, R.id.term_formula };
+        // Flags == 0 because we are using LoaderCallbacks
         mAdapter = new SimpleCursorAdapter(getActivity(),
                 R.layout.custom_two_line_list_item,
-                null,
-                new String[] {MathTermColumns.MATH_TERM, MathTermColumns.MATH_FORMULA},
-                new int[] { R.id.term_name, R.id.term_formula }, 0);
+                null, from, to, 0);
 
+        // Wrapping adapter
         mAnimAdapter = new SwingRightInAnimationAdapter(mAdapter);
         mAnimAdapter.setAbsListView(listView);
         listView.setAdapter(mAnimAdapter);
 
-//        listView.setAdapter(mAdapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
@@ -69,14 +79,15 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
                 activity.viewMathTerm(id);
             }
         });
+        // Deletion happens here
         listView.setDismissCallback(new EnhancedListView.OnDismissCallback() {
             @Override
             public EnhancedListView.Undoable onDismiss(EnhancedListView listView, int position) {
                 long id = mAdapter.getItemId(position);
+                // We need this, so items won't flicker after deletion
                 SwipeToDeleteCursorWrapper cursorWrapper =
                         new SwipeToDeleteCursorWrapper(mAdapter.getCursor(), position);
                 mAdapter.swapCursor(cursorWrapper);
-                // I have no idea why -1. Probably library bug
                 new MathTermSelection().id(id).delete(getActivity().getContentResolver());
                 return null;
             }
@@ -86,6 +97,10 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         getLoaderManager().initLoader(0, null, this);
     }
 
+    /**
+     * Initializing search in actionBar
+     * @param menu
+     */
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
@@ -95,6 +110,10 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         searchView.setOnQueryTextListener(this);
     }
 
+    /**
+     * Handling click on menu button, and delegating call
+     * to {@link com.example.gaidamak.mathcatalog.MainActivity}
+     */
     @OptionsItem
     void addItem() {
         Log.v(TAG, "add item");
@@ -106,8 +125,13 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         String filter = null;
         if (bundle != null)
             filter = bundle.getString(FILTER);
-        CursorLoader cl = new CursorLoader(getActivity(), MathTermColumns.CONTENT_URI, null, filter,
-                null, null);
+
+        CursorLoader cl = new CursorLoader(getActivity(),
+                MathTermColumns.CONTENT_URI,
+                null,   // Projection
+                filter, // Selection
+                null,   // Selection args
+                null);  // Sort order
         return cl;
     }
 
@@ -121,15 +145,24 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         mAdapter.swapCursor(null);
     }
 
+    /**
+     * Not interested in event
+     */
     @Override
     public boolean onQueryTextSubmit(String s) {
         return false;
     }
 
+    /**
+     * Forming selection and requesting new {@link android.database.Cursor}.
+     * Search happens here.
+     * @param s
+     * @return
+     */
     @Override
     public boolean onQueryTextChange(String s) {
         Bundle bundle = new Bundle();
-        String filter = MathTermColumns.MATH_TERM + " LIKE '%" + s + "%'";
+        String filter = MathTermColumns.MATH_TERM_LOWERCASE + " LIKE '%" + s.toLowerCase() + "%'";
         bundle.putString(FILTER, filter);
         getLoaderManager().restartLoader(0, bundle, this);
         return true;
