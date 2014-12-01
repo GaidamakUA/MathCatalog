@@ -8,7 +8,7 @@ package com.commonsware.cwac.richedit;
 
 public final class R {
 	public static final class drawable {
-		public static final int ic_action_format_dark = 0x7f020008;
+		public static final int ic_action_format_dark = 0x7f020007;
 	}
 	public static final class id {
 		public static final int cwac_richedittext_bold = 0x7f09001c;

@@ -32,7 +32,7 @@ import de.timroes.android.listview.EnhancedListView;
  * Layout and menu are inflated from XML
  */
 @EFragment(R.layout.fragment_main)
-@OptionsMenu(R.menu.add_item)
+@OptionsMenu(R.menu.fragment_list)
 public class MathListFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         SearchView.OnQueryTextListener{
     private static final String TAG = "MathListFragment";
@@ -162,6 +162,8 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
     @Override
     public boolean onQueryTextChange(String s) {
         Bundle bundle = new Bundle();
+        // SQL has problems with no ASCII letters
+        // So this is a hack to perform case independent search
         String filter = MathTermColumns.MATH_TERM_LOWERCASE + " LIKE '%" + s.toLowerCase() + "%'";
         bundle.putString(FILTER, filter);
         getLoaderManager().restartLoader(0, bundle, this);

@@ -1,7 +1,7 @@
 package com.example.gaidamak.mathcatalog;
 
 /**
- * Created by gaidamak on 01.12.14.
+ * Helper class to ease the parsing of the JSON
  */
 public class JsonItem {
     public String title;

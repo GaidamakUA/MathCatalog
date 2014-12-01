@@ -31,6 +31,8 @@ public class MathTermContentValues extends AbstractContentValues {
      */
     public MathTermContentValues putMathTerm(String value) {
         if (value == null) throw new IllegalArgumentException("value for mathTerm must not be null");
+        // This is used to provide case insensitive search
+        // and do not force user to call same method twice
         mContentValues.put(MathTermColumns.MATH_TERM, value);
         this.putMathTermLowercase(value.toLowerCase());
         return this;
@@ -40,6 +42,7 @@ public class MathTermContentValues extends AbstractContentValues {
 
     /**
      * Name of math term lowercase, (workaround, case insensitive LIKE for SQLite does not working for non ASCII characters)
+     * Called from putMathTerm
      */
     public MathTermContentValues putMathTermLowercase(String value) {
         if (value == null) throw new IllegalArgumentException("value for mathTermLowercase must not be null");

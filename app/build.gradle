@@ -3,12 +3,14 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+        // This is necessary to make @AndroidAnnotations work
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
     }
 }
 
 repositories {
     maven {
+        // Repositary for ReachEditText
         url "https://repo.commonsware.com.s3.amazonaws.com"
     }
 }
@@ -22,7 +24,9 @@ android {
 
     defaultConfig {
         applicationId "com.example.gaidamak.mathcatalog"
+        // Minimal version Android 4.0.3
         minSdkVersion 15
+        // Compiling for Android Lollipop :)
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
@@ -36,6 +40,7 @@ android {
 }
 
 apt {
+    // Annotations stuff
     arguments {
         androidManifestFile variant.processResources.manifestFile
         resourcePackageName "com.example.gaidamak.mathcatalog"
@@ -43,13 +48,21 @@ apt {
 }
 
 dependencies {
+    // @AndroidAnnotations Framework
     apt 'org.androidannotations:androidannotations:3.1'
     compile 'org.androidannotations:androidannotations-api:3.1'
+    // Cute popups as hints on Edit screen
     compile 'com.iangclifton.android:floatlabel:1.0.2'
+    // Text editor
     compile 'com.commonsware.cwac:richedit:0.3.0'
+    // Animations for old Android devices used by some other library
     compile 'com.nineoldandroids:library:2.4.0'
+    // Animation of list view
     compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    // Parse JSON
     compile 'com.google.code.gson:gson:2.3.1'
+    // I had to compile this lib from sources, deletion of items in list
     compile project(':EnhancedListView')
+    // Useless
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }

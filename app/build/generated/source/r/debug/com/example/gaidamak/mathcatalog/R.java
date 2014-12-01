@@ -44,18 +44,17 @@ containing a value of this type.
         public static final int elv_undo_bottom_offset=0x7f080003;
     }
     public static final class drawable {
-        public static final int background_v2=0x7f020000;
-        public static final int background_v3=0x7f020001;
-        public static final int elv_ic_action_undo=0x7f020002;
-        public static final int elv_popup_bg=0x7f020003;
-        public static final int elv_toast_frame=0x7f020004;
-        public static final int elv_undo_btn_bg=0x7f020005;
-        public static final int elv_undo_btn_bg_focused=0x7f020006;
-        public static final int elv_undo_btn_bg_pressed=0x7f020007;
-        public static final int ic_action_format_dark=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int tile_background=0x7f02000a;
-        public static final int vertical_background=0x7f02000b;
+        public static final int background_v3=0x7f020000;
+        public static final int elv_ic_action_undo=0x7f020001;
+        public static final int elv_popup_bg=0x7f020002;
+        public static final int elv_toast_frame=0x7f020003;
+        public static final int elv_undo_btn_bg=0x7f020004;
+        public static final int elv_undo_btn_bg_focused=0x7f020005;
+        public static final int elv_undo_btn_bg_pressed=0x7f020006;
+        public static final int ic_action_format_dark=0x7f020007;
+        public static final int ic_launcher=0x7f020008;
+        public static final int tile_background=0x7f020009;
+        public static final int vertical_background=0x7f02000a;
     }
     public static final class id {
         public static final int action_cancel=0x7f090020;
@@ -96,17 +95,16 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int custom_float_lable_layout=0x7f030001;
-        public static final int custom_two_line_list_item=0x7f030002;
-        public static final int elv_undo_popup=0x7f030003;
-        public static final int float_label=0x7f030004;
-        public static final int fragment_edit_term=0x7f030005;
-        public static final int fragment_main=0x7f030006;
-        public static final int fragment_search=0x7f030007;
-        public static final int fragment_view_term=0x7f030008;
+        public static final int custom_two_line_list_item=0x7f030001;
+        public static final int elv_undo_popup=0x7f030002;
+        public static final int float_label=0x7f030003;
+        public static final int fragment_edit_term=0x7f030004;
+        public static final int fragment_main=0x7f030005;
+        public static final int fragment_search=0x7f030006;
+        public static final int fragment_view_term=0x7f030007;
     }
     public static final class menu {
-        public static final int add_item=0x7f0c0000;
+        public static final int fragment_list =0x7f0c0000;
         public static final int cwac_richedittext_effects=0x7f0c0001;
         public static final int cwac_richedittext_entry=0x7f0c0002;
         public static final int cwac_richedittext_fonts=0x7f0c0003;

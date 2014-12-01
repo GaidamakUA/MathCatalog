@@ -1,27 +1,28 @@
 package com.example.gaidamak.mathcatalog;
 
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.SearchManager;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 
-
+/**
+ * Provides np UI itself, but manages {@link android.app.Fragment}
+ */
 public class MainActivity extends Activity implements FragmentManagingActivity {
 
     private static final String TAG = "MainActivity";
 
+    /**
+     * Initializing UI with first fragment {@link com.example.gaidamak.mathcatalog.MathListFragment}
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Hide android icon
         getActionBar().setDisplayShowHomeEnabled(false);
         if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
@@ -33,19 +34,33 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        // Swipe works because of it
         findViewById(R.id.container).setOnTouchListener(new OnSwipeTouchListener(this));
     }
 
+    /**
+     * Start {@link com.example.gaidamak.mathcatalog.ViewTermFragment_}
+     * @param id The id of MathTerm
+     */
     @Override
     public void viewMathTerm(long id) {
         getFragmentManager().beginTransaction()
-                .setCustomAnimations(R.animator.slide_in_left, R.animator.slide_out_left,
-                        R.animator.slide_in_right, R.animator.slide_out_right)
+                // Animation
+                .setCustomAnimations(R.animator.slide_in_left,  // Appear
+                        R.animator.slide_out_left,              // Disappear
+                        R.animator.slide_in_right,              // Appear on cancel
+                        R.animator.slide_out_right)             // Disappear on cancel
+                // Sweat features of @AndroidAnnotations
                 .replace(R.id.container, ViewTermFragment_.builder().termId(id).build())
+                // Make operation reversible
                 .addToBackStack(null)
                 .commit();
     }
 
+    /**
+     * Start {@link com.example.gaidamak.mathcatalog.EditTermFragment_}
+     * @param id The id of MathTerm
+     */
     @Override
     public void editMathTerm(long id) {
         getFragmentManager().beginTransaction()
@@ -56,6 +71,9 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                 .commit();
     }
 
+    /**
+     * Like editMathTerm, but meant to create new Math term
+     */
     @Override
     public void addNewTerm() {
         getFragmentManager().beginTransaction()
@@ -66,13 +84,22 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                 .commit();
     }
 
+    /**
+     * Cancel previous transaction
+     */
     @Override
     public void cancel() {
         getFragmentManager().popBackStack();
     }
 
+    /**
+     * Listener to make swipe work
+     */
     public class OnSwipeTouchListener implements View.OnTouchListener {
 
+        /**
+         * This is the thing which can detect gesture including Swipe
+         */
         private final GestureDetector gestureDetector;
 
         public OnSwipeTouchListener (Context ctx){
@@ -104,16 +131,6 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                         if (Math.abs(diffX) > SWIPE_THRESHOLD && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
                             if (diffX > 0) {
                                 onSwipeRight();
-                            } else {
-                                onSwipeLeft();
-                            }
-                        }
-                    } else {
-                        if (Math.abs(diffY) > SWIPE_THRESHOLD && Math.abs(velocityY) > SWIPE_VELOCITY_THRESHOLD) {
-                            if (diffY > 0) {
-                                onSwipeBottom();
-                            } else {
-                                onSwipeTop();
                             }
                         }
                     }
@@ -126,15 +143,6 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
 
         public void onSwipeRight() {
             cancel();
-        }
-
-        public void onSwipeLeft() {
-        }
-
-        public void onSwipeTop() {
-        }
-
-        public void onSwipeBottom() {
         }
     }
 }

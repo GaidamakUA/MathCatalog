@@ -1,0 +1,35 @@
+{
+    "documentation": "Entity which represents math term",
+    "fields": [
+        {
+            "documentation": "Name of math term",
+            "name": "math_term",
+            "type": "String",
+            "nullable": false,
+        },
+        {
+            "documentation": "Name of math term lowercase, (workaround, case insensitive LIKE for SQLite does not working for non ASCII characters)",
+            "name": "math_term_lowercase",
+            "type": "String",
+            "nullable": false,
+        },
+        {
+            "documentation": "Math formula if present",
+            "name": "math_formula",
+            "type": "String",
+            "nullable": true,
+        },
+        {
+            "documentation": "Description of math term",
+            "name": "description",
+            "type": "String",
+            "nullable": false,
+        },
+        {
+            "documentation": "Tags of math term",
+            "name": "tags",
+            "type": "String",
+            "nullable": true,
+        },
+    ]
+}

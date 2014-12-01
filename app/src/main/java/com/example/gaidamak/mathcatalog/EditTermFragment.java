@@ -17,12 +17,21 @@ import org.androidannotations.annotations.OptionsItem;
 import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
 
+/**
+ * Fragment where user can edit details of MathTerm
+ * Layout and menu are inflated from XML
+ */
 @EFragment(R.layout.fragment_edit_term)
 @OptionsMenu(R.menu.fragment_edit_term_menu)
 public class EditTermFragment extends Fragment {
+    /**
+     * -1 is a flag that indicates that this is new Item.
+     * If it is not true this variable will be injected with correct _ID
+     */
     @FragmentArg
     Long termId = -1l;
 
+    // FloatLabel is a lib component, so cute PopUp is show as hint
     @ViewById(R.id.title_edittext)
     FloatLabel titleTextView;
     @ViewById(R.id.formula_edittext)
@@ -30,10 +39,15 @@ public class EditTermFragment extends Fragment {
 
     @ViewById(R.id.description_edittext)
     EditText descriptionTextView;
+    // FloatLabel works only with one line
 //    FloatLabel descriptionTextView;
     @ViewById(R.id.tags_edittext)
     FloatLabel tagsTextView;
 
+    /**
+     * Handling click on save options menu.
+     * Writing all data to DB and closing fragment
+     */
     @OptionsItem(R.id.action_save)
     void save() {
         MathTermContentValues contentValues = new MathTermContentValues();
@@ -49,11 +63,19 @@ public class EditTermFragment extends Fragment {
         cancel();
     }
 
+    /**
+     * Handling click and asking activity to close this fragment
+     */
     @OptionsItem(R.id.action_cancel)
     void cancel() {
         ((FragmentManagingActivity) getActivity()).cancel();
     }
 
+
+    /**
+     * Initialize fields with content
+     * @see org.androidannotations.annotations.AfterViews
+     */
     @AfterViews
     void initViews() {
         if (termId == -1) {
@@ -62,7 +84,9 @@ public class EditTermFragment extends Fragment {
         }
         MathTermSelection selection = new MathTermSelection();
         MathTermCursor cursor = selection.id(termId).query(getActivity().getContentResolver());
-        assert cursor.getCount() == 1;
+        if(cursor.getCount() != 1) {
+            throw new RuntimeException("Unexpected number of items:" + cursor.getCount());
+        }
         cursor.moveToFirst();
 
         getActivity().getActionBar().setTitle(cursor.getMathTerm());
@@ -74,9 +98,5 @@ public class EditTermFragment extends Fragment {
         tagsTextView.getEditText().setText(cursor.getTags());
 
         RichEditText descriptionEditor = (RichEditText) descriptionTextView;
-//        descriptionEditor.
-//        descriptionEditor.setIsShowing(false);
-//        descriptionEditor.enableActionModes(true);
-//        descriptionEditor.setKeyboardShortcutsEnabled(false);
     }
 }

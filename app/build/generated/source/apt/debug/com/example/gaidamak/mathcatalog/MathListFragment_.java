@@ -74,7 +74,7 @@ public final class MathListFragment_
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(com.example.gaidamak.mathcatalog.R.menu.add_item, menu);
+        inflater.inflate(com.example.gaidamak.mathcatalog.R.menu.fragment_list, menu);
         super.onCreateOptionsMenu(menu, inflater);
     }
 

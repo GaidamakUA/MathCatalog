@@ -39,6 +39,7 @@ public class MathSQLiteOpenHelperCallbacks {
         if (BuildConfig.DEBUG) Log.d(TAG, "onPostCreate");
         // Insert your db creation code here. This is called after your tables are created.
         try {
+            // Parsing XML and writing data to DB
             Gson gson = new Gson();
             JsonReader reader = new JsonReader(new BufferedReader(
                     new InputStreamReader(context.getAssets().open("db_init.json"))));

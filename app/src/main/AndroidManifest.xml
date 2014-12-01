@@ -15,9 +15,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <!-- So search can work -->
             <meta-data android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
+        <!-- provider for internal use only android:exported="false" -->
         <provider
             android:name="com.example.gaidamak.mathcatalog.provider.MathProvider"
             android:authorities="com.example.gaidamak.mathcatalog.provider"

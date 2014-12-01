@@ -1,7 +1,7 @@
 package com.example.gaidamak.mathcatalog;
 
 /**
- * Created by gaidamak on 29.11.14.
+ * Interface to fix the contract between fragments and activity
  */
 public interface FragmentManagingActivity {
     public void viewMathTerm(long id);

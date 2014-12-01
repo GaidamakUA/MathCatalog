@@ -1,0 +1,12 @@
+{
+    "syntaxVersion": "2",
+    "projectPackageId": "com.example.gaidamak.mathcatalog",
+    "authority": "com.example.gaidamak.mathcatalog.provider",
+    "providerJavaPackage": "com.example.gaidamak.mathcatalog.provider",
+    "providerClassName": "MathProvider",
+    "sqliteOpenHelperClassName": "MathSQLiteOpenHelper",
+    "sqliteOpenHelperCallbacksClassName": "MathSQLiteOpenHelperCallbacks",
+    "databaseFileName": "math.db",
+    "databaseVersion": 1,
+    "enableForeignKeys": false,
+}
