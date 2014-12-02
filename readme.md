@@ -4,7 +4,7 @@
 2. Unpack
 3. Open Android Studio
 4. File -> Open
-After initialization you should be able to run the project
+<br>After initialization you should be able to run the project
 
 ## Used libs
 1. AndroidAnnotations http://androidannotations.org/
