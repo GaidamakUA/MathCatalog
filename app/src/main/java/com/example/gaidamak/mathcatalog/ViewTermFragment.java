@@ -1,6 +1,7 @@
 package com.example.gaidamak.mathcatalog;
 
 import android.app.Fragment;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermCursor;
@@ -61,6 +62,8 @@ public class ViewTermFragment extends Fragment {
         cursor.moveToFirst();
 
         getActivity().getActionBar().setTitle(cursor.getMathTerm());
+
+        descriptionTextView.setMovementMethod(new ScrollingMovementMethod());
 
         formulaTextView.setText(cursor.getMathFormula());
         descriptionTextView.setText(cursor.getDescription());

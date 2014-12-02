@@ -57,36 +57,35 @@ containing a value of this type.
         public static final int vertical_background=0x7f02000a;
     }
     public static final class id {
-        public static final int action_cancel=0x7f090020;
-        public static final int action_edit=0x7f090022;
-        public static final int action_save=0x7f090021;
-        public static final int addItem=0x7f090010;
+        public static final int action_cancel=0x7f09001d;
+        public static final int action_edit=0x7f090021;
+        public static final int action_save=0x7f09001e;
+        public static final int addItem=0x7f090020;
         public static final int container=0x7f090002;
-        public static final int cwac_richedittext_bold=0x7f09001c;
-        public static final int cwac_richedittext_center=0x7f09001a;
-        public static final int cwac_richedittext_effects=0x7f09001e;
-        public static final int cwac_richedittext_fonts=0x7f09001f;
-        public static final int cwac_richedittext_format=0x7f090015;
-        public static final int cwac_richedittext_italic=0x7f09001d;
-        public static final int cwac_richedittext_mono=0x7f090018;
-        public static final int cwac_richedittext_normal=0x7f090019;
-        public static final int cwac_richedittext_opposite=0x7f09001b;
-        public static final int cwac_richedittext_sans=0x7f090017;
-        public static final int cwac_richedittext_serif=0x7f090016;
-        public static final int cwac_richedittext_strike=0x7f090012;
-        public static final int cwac_richedittext_subscript=0x7f090014;
-        public static final int cwac_richedittext_superscript=0x7f090013;
-        public static final int cwac_richedittext_underline=0x7f090011;
+        public static final int cwac_richedittext_bold=0x7f090019;
+        public static final int cwac_richedittext_center=0x7f090017;
+        public static final int cwac_richedittext_effects=0x7f09001b;
+        public static final int cwac_richedittext_fonts=0x7f09001c;
+        public static final int cwac_richedittext_format=0x7f090012;
+        public static final int cwac_richedittext_italic=0x7f09001a;
+        public static final int cwac_richedittext_mono=0x7f090015;
+        public static final int cwac_richedittext_normal=0x7f090016;
+        public static final int cwac_richedittext_opposite=0x7f090018;
+        public static final int cwac_richedittext_sans=0x7f090014;
+        public static final int cwac_richedittext_serif=0x7f090013;
+        public static final int cwac_richedittext_strike=0x7f09000f;
+        public static final int cwac_richedittext_subscript=0x7f090011;
+        public static final int cwac_richedittext_superscript=0x7f090010;
+        public static final int cwac_richedittext_underline=0x7f09000e;
         public static final int description_edittext=0x7f090009;
-        public static final int description_textview=0x7f09000d;
+        public static final int description_textview=0x7f09000c;
         public static final int edit_text=0x7f090000;
         public static final int float_label=0x7f090001;
         public static final int formula_edittext=0x7f090008;
-        public static final int formula_textview=0x7f09000c;
-        public static final int search=0x7f09000f;
-        public static final int search_edittext=0x7f09000b;
+        public static final int formula_textview=0x7f09000b;
+        public static final int search=0x7f09001f;
         public static final int tags_edittext=0x7f09000a;
-        public static final int tags_textview=0x7f09000e;
+        public static final int tags_textview=0x7f09000d;
         public static final int term_formula=0x7f090004;
         public static final int term_name=0x7f090003;
         public static final int text=0x7f090005;
@@ -100,17 +99,16 @@ containing a value of this type.
         public static final int float_label=0x7f030003;
         public static final int fragment_edit_term=0x7f030004;
         public static final int fragment_main=0x7f030005;
-        public static final int fragment_search=0x7f030006;
-        public static final int fragment_view_term=0x7f030007;
+        public static final int fragment_view_term=0x7f030006;
     }
     public static final class menu {
-        public static final int fragment_list =0x7f0c0000;
-        public static final int cwac_richedittext_effects=0x7f0c0001;
-        public static final int cwac_richedittext_entry=0x7f0c0002;
-        public static final int cwac_richedittext_fonts=0x7f0c0003;
-        public static final int cwac_richedittext_lines=0x7f0c0004;
-        public static final int cwac_richedittext_main=0x7f0c0005;
-        public static final int fragment_edit_term_menu=0x7f0c0006;
+        public static final int cwac_richedittext_effects=0x7f0c0000;
+        public static final int cwac_richedittext_entry=0x7f0c0001;
+        public static final int cwac_richedittext_fonts=0x7f0c0002;
+        public static final int cwac_richedittext_lines=0x7f0c0003;
+        public static final int cwac_richedittext_main=0x7f0c0004;
+        public static final int fragment_edit_term_menu=0x7f0c0005;
+        public static final int fragment_list=0x7f0c0006;
         public static final int fragment_view_term_menu=0x7f0c0007;
     }
     public static final class string {

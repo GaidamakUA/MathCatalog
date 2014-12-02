@@ -2076,3 +2076,264 @@
 03:25:10.688 [Daemon Thread 16] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
 03:25:10.705 [Daemon Thread 16] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 145 ms], [Generate Sources = 55 ms], [Process Annotations = 42 ms], [Validate Annotations = 16 ms], [Find R Classes = 12 ms], [Extract Manifest = 6 ms], [Extract Annotations = 4 ms], 
 03:25:10.705 [Daemon Thread 16] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+10:12:08.661 [Daemon] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+10:12:08.789 [Daemon] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 22 elements
+10:12:08.853 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+10:12:09.75 [Daemon] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+10:12:09.76 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+10:12:09.82 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+10:12:09.165 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+10:12:09.166 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+10:12:09.438 [Daemon] ERROR o.a.AndroidAnnotationProcessor:268 - Something went wrong: Unexpected error in AndroidAnnotations 3.1!
+You should check if there is already an issue about it on https://github.com/excilys/androidannotations/search?q=java.lang.RuntimeException&type=Issues
+If none exists, please open a new one with the following content and tell us if you can reproduce it or not. Don't forget to give us as much information as you can (like parts of your code in failure).
+Java version: javac 1.7.0_55
+Javac processors options: androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog
+Stacktrace: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.androidannotations.helper.AnnotationHelper.extractAnnotationParameter(AnnotationHelper.java:350)
+	at org.androidannotations.helper.AnnotationHelper.extractAnnotationResIdValueParameter(AnnotationHelper.java:315)
+	at org.androidannotations.helper.AnnotationHelper.extractAnnotationResIdValueParameter(AnnotationHelper.java:308)
+	at org.androidannotations.helper.IdValidatorHelper.resIdsExist(IdValidatorHelper.java:44)
+	at org.androidannotations.handler.EFragmentHandler.validate(EFragmentHandler.java:53)
+	at org.androidannotations.handler.BaseAnnotationHandler.validate(BaseAnnotationHandler.java:109)
+	at org.androidannotations.process.ModelValidator.validateThrowing(ModelValidator.java:79)
+	at org.androidannotations.process.ModelValidator.validate(ModelValidator.java:66)
+	at org.androidannotations.AndroidAnnotationProcessor.validateAnnotations(AndroidAnnotationProcessor.java:234)
+	at org.androidannotations.AndroidAnnotationProcessor.processThrowing(AndroidAnnotationProcessor.java:183)
+	at org.androidannotations.AndroidAnnotationProcessor.process(AndroidAnnotationProcessor.java:113)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:793)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:722)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.access$1700(JavacProcessingEnvironment.java:97)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1029)
+	at com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1163)
+	at com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1108)
+	at com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:824)
+	at com.sun.tools.javac.main.Main.compile(Main.java:439)
+	at com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:132)
+	at org.gradle.api.internal.tasks.compile.jdk6.Jdk6JavaCompiler.execute(Jdk6JavaCompiler.java:45)
+	at org.gradle.api.internal.tasks.compile.jdk6.Jdk6JavaCompiler.execute(Jdk6JavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:97)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:36)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:34)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:127)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:113)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:63)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.doExecute(AnnotationProcessingTaskFactory.java:235)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:211)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$IncrementalTaskAction.execute(AnnotationProcessingTaskFactory.java:222)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:200)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:42)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.AbstractTask.executeWithoutThrowingTaskFailure(AbstractTask.java:305)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.executeTask(AbstractTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:63)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:51)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:23)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:88)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:29)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.access$200(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$2.proceed(DefaultBuildExecuter.java:68)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:62)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:149)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:106)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:86)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.BuildModelAction.run(BuildModelAction.java:45)
+	at org.gradle.tooling.internal.provider.BuildModelAction.run(BuildModelAction.java:32)
+	at org.gradle.tooling.internal.provider.ConfiguringBuildAction.run(ConfiguringBuildAction.java:134)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:36)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:47)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:35)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:24)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartStopIfBuildAndStop.execute(StartStopIfBuildAndStop.java:33)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ReturnResult.execute(ReturnResult.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:71)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:69)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:69)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:70)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:45)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator.runCommand(DaemonStateCoordinator.java:258)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy.doBuild(StartBuildOrRespondWithBusy.java:49)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:34)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.HandleCancel.execute(HandleCancel.java:36)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.HandleStop.execute(HandleStop.java:30)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DaemonHygieneAction.execute(DaemonHygieneAction.java:39)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.CatchAndForwardDaemonFailure.execute(CatchAndForwardDaemonFailure.java:32)
+	at org.gradle.launcher.daemon.server.exec.DaemonCommandExecution.proceed(DaemonCommandExecution.java:125)
+	at org.gradle.launcher.daemon.server.exec.DefaultDaemonCommandExecuter.executeCommand(DefaultDaemonCommandExecuter.java:52)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.handleCommand(DefaultIncomingConnectionHandler.java:154)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.receiveAndHandleCommand(DefaultIncomingConnectionHandler.java:128)
+	at org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler$ConnectionWorker.run(DefaultIncomingConnectionHandler.java:116)
+	at org.gradle.internal.concurrent.DefaultExecutorFactory$StoppableExecutorImpl$1.run(DefaultExecutorFactory.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.androidannotations.helper.AnnotationHelper.extractAnnotationParameter(AnnotationHelper.java:344)
+	... 113 more
+Caused by: java.lang.annotation.AnnotationTypeMismatchException: Incorrectly typed data found for annotation element public abstract int org.androidannotations.annotations.EFragment.value() (Found data of type int)
+	at com.sun.tools.javac.model.AnnotationProxyMaker$ValueVisitor$1AnnotationTypeMismatchExceptionProxy.generateException(AnnotationProxyMaker.java:264)
+	at sun.reflect.annotation.AnnotationInvocationHandler.invoke(AnnotationInvocationHandler.java:75)
+	at com.sun.proxy.$Proxy41.value(Unknown Source)
+	... 118 more
+Thrown from: com.example.gaidamak.mathcatalog
+Element (ClassSymbol): package com.example.gaidamak.mathcatalog;
+
+/**
+ * Fragment with list of all available Math terms.
+ * Implements {@link android.app.LoaderManager.LoaderCallbacks}
+ * so list can be updated instantly after DB change.
+ * Layout and menu are inflated from XML
+ */
+@org.androidannotations.annotations.EFragment(<error>)
+@org.androidannotations.annotations.OptionsMenu({2131492870})
+public class MathListFragment extends android.app.Fragment implements android.app.LoaderManager.LoaderCallbacks<android.database.Cursor>, android.widget.SearchView.OnQueryTextListener {
+
+  public MathListFragment();
+  private static final java.lang.String TAG = "MathListFragment";
+  private static final java.lang.String FILTER = "filter";
+  /**
+   * Injected listView where all math terms are displayed as listItems
+   */
+  @org.androidannotations.annotations.ViewById(16908298)
+  de.timroes.android.listview.EnhancedListView listView;
+  private android.widget.SimpleCursorAdapter mAdapter;
+  private com.example.gaidamak.mathcatalog.FragmentManagingActivity activity;
+  /**
+   * Wrapper for adapter. This is the thing to make listItems animated.
+   */
+  private com.nhaarman.listviewanimations.appearance.AnimationAdapter mAnimAdapter;
+
+  @java.lang.Override
+  public void onActivityCreated(android.os.Bundle savedInstanceState);
+
+  /**
+   * Initializing search in actionBar
+   * @param menu
+   */
+  @java.lang.Override
+  public void onPrepareOptionsMenu(android.view.Menu menu);
+
+  /**
+   * Handling click on menu button, and delegating call
+   * to {@link com.example.gaidamak.mathcatalog.MainActivity}
+   */
+  @org.androidannotations.annotations.OptionsItem
+  void addItem();
+
+  @java.lang.Override
+  public android.content.Loader<android.database.Cursor> onCreateLoader(int i,
+    android.os.Bundle bundle);
+
+  @java.lang.Override
+  public void onLoadFinished(android.content.Loader<android.database.Cursor> cursorLoader,
+    android.database.Cursor cursor);
+
+  @java.lang.Override
+  public void onLoaderReset(android.content.Loader<android.database.Cursor> cursorLoader);
+
+  /**
+   * Not interested in event
+   */
+  @java.lang.Override
+  public boolean onQueryTextSubmit(java.lang.String s);
+
+  /**
+   * Forming selection and requesting new {@link android.database.Cursor}.
+   * Search happens here.
+   * @param s
+   * @return
+   */
+  @java.lang.Override
+  public boolean onQueryTextChange(java.lang.String s);
+}
+
+
+10:12:09.439 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 650 ms], [Extract Manifest = 223 ms], [Find R Classes = 79 ms], [Extract Annotations = 61 ms], 
+10:12:09.439 [Daemon] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+10:16:46.879 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+10:16:46.975 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 22 elements
+10:16:47.32 [Daemon Thread 2] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+10:16:47.78 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+10:16:47.79 [Daemon Thread 2] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+10:16:47.116 [Daemon Thread 2] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+10:16:47.173 [Daemon Thread 2] INFO  o.a.p.ModelValidator:42 - Validating elements
+10:16:47.173 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+10:16:47.177 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, listView, formulaTextView, descriptionTextView, tagsTextView]
+10:16:47.201 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+10:16:47.202 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+10:16:47.205 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+10:16:47.209 [Daemon Thread 2] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+10:16:47.225 [Daemon Thread 2] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+10:16:47.226 [Daemon Thread 2] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment, com.example.gaidamak.mathcatalog.EditTermFragment]
+10:16:47.254 [Daemon Thread 2] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+10:16:47.274 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+10:16:47.288 [Daemon Thread 2] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+10:16:47.293 [Daemon Thread 2] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+10:16:47.351 [Daemon Thread 2] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+10:16:47.396 [Daemon Thread 2] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+10:16:47.452 [Daemon Thread 2] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 477 ms], [Generate Sources = 178 ms], [Find R Classes = 82 ms], [Process Annotations = 60 ms], [Extract Annotations = 53 ms], [Extract Manifest = 48 ms], [Validate Annotations = 42 ms], 
+10:16:47.452 [Daemon Thread 2] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+11:00:28.649 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {androidManifestFile=/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=com.example.gaidamak.mathcatalog}
+11:00:28.747 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 6 annotations on 22 elements
+11:00:28.778 [Daemon Thread 5] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: /home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/manifests/full/debug/AndroidManifest.xml
+11:00:28.787 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.gaidamak.mathcatalog, componentQualifiedNames=[com.example.gaidamak.mathcatalog.MainActivity, com.example.gaidamak.mathcatalog.provider.MathProvider], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=21]
+11:00:28.807 [Daemon Thread 5] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.gaidamak.mathcatalog.R
+11:00:28.812 [Daemon Thread 5] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:00:28.890 [Daemon Thread 5] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:00:28.891 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+11:00:28.895 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [titleTextView, formulaTextView, descriptionTextView, tagsTextView, listView, formulaTextView, descriptionTextView, tagsTextView]
+11:00:28.914 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with FragmentArgHandler: [termId, termId]
+11:00:28.915 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+11:00:28.920 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [save(), cancel(), addItem(), edit()]
+11:00:28.923 [Daemon Thread 5] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [initViews(), initViews()]
+11:00:28.954 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+11:00:28.955 [Daemon Thread 5] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EFragmentHandler: [com.example.gaidamak.mathcatalog.MathListFragment, com.example.gaidamak.mathcatalog.EditTermFragment, com.example.gaidamak.mathcatalog.ViewTermFragment]
+11:00:29.1 [Daemon Thread 5] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+11:00:29.12 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 3
+11:00:29.15 [Daemon Thread 5] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:00:29.17 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.EditTermFragment_
+11:00:29.53 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.MathListFragment_
+11:00:29.66 [Daemon Thread 5] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.gaidamak.mathcatalog.ViewTermFragment_
+11:00:29.83 [Daemon Thread 5] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 336 ms], [Process Annotations = 84 ms], [Generate Sources = 71 ms], [Find R Classes = 67 ms], [Validate Annotations = 38 ms], [Extract Annotations = 28 ms], [Extract Manifest = 10 ms], 
+11:00:29.84 [Daemon Thread 5] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
