@@ -34,7 +34,7 @@ import de.timroes.android.listview.EnhancedListView;
 @EFragment(R.layout.fragment_term_list)
 @OptionsMenu(R.menu.fragment_term_list_menu)
 public class MathListFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
-        SearchView.OnQueryTextListener{
+        SearchView.OnQueryTextListener {
     private static final String TAG = "MathListFragment";
     private static final String FILTER = "filter";
 
@@ -61,7 +61,7 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         activity = (FragmentManagingActivity) getActivity();
         // Projection
         String[] from = {MathTermColumns.MATH_TERM, MathTermColumns.MATH_FORMULA};
-        int[] to = { R.id.term_name, R.id.term_formula };
+        int[] to = {R.id.term_name, R.id.term_formula};
         // Flags == 0 because we are using LoaderCallbacks
         mAdapter = new SimpleCursorAdapter(getActivity(),
                 R.layout.custom_two_line_list_item,
@@ -99,6 +99,7 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
 
     /**
      * Initializing search in actionBar
+     *
      * @param menu
      */
     @Override
@@ -111,7 +112,7 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
     }
 
     /**
-     * Handling click on menu button, and delegating call
+     * Handling click on menu button with id=addItem, and delegating call
      * to {@link com.example.gaidamak.mathcatalog.MainActivity}
      */
     @OptionsItem
@@ -120,6 +121,11 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         activity.addNewTerm();
     }
 
+    /**
+     * Showing information about app.
+     * Handling click on menu button, and delegating call
+     * to {@link com.example.gaidamak.mathcatalog.MainActivity}
+     */
     @OptionsItem(R.id.aboutItem)
     void showAboutScreen() {
         activity.showSplashScreen(true);
@@ -161,6 +167,7 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
     /**
      * Forming selection and requesting new {@link android.database.Cursor}.
      * Search happens here.
+     *
      * @param s
      * @return
      */

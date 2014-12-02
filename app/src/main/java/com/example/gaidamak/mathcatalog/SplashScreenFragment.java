@@ -21,14 +21,22 @@ public class SplashScreenFragment extends Fragment {
 
     private static final String TAG = "SplashScreenFragment";
 
+    /**
+     * Value injected with EFragment.builder
+     */
     @FragmentArg
     boolean explicitCall = false;
     boolean shouldAutoclose = true;
     @ViewById(R.id.hint_for_user_text)
     View hintText;
 
+    /**
+     * You should be familiar with this already. But, just in case
+     * {@link org.androidannotations.annotations.AfterViews}
+     */
     @AfterViews
     void tryAutoclose() {
+        // Should autoclose if not first run.
         shouldAutoclose = !pref.isFirstRun().get() && !explicitCall;
         if (shouldAutoclose) {
             autoclose();
@@ -38,10 +46,14 @@ public class SplashScreenFragment extends Fragment {
         pref.isFirstRun().put(false);
     }
 
+    /**
+     * Creates new background thread, delays for 3 seconds and closing fragment;
+     */
     @Background
     void autoclose() {
         try {
             Log.v(TAG, "I should autoclose");
+            // Delay
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
             Log.w(TAG, "", e);
@@ -49,6 +61,9 @@ public class SplashScreenFragment extends Fragment {
         close();
     }
 
+    /**
+     * Closing fragment (call to main activity)
+     */
     @Click(R.id.main_layout)
     void close() {
         ((FragmentManagingActivity) getActivity()).cancel();

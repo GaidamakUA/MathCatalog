@@ -3,14 +3,9 @@ package com.example.gaidamak.mathcatalog;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
-
-import org.androidannotations.annotations.Background;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * Provides np UI itself, but manages {@link android.app.Fragment}
@@ -97,11 +92,18 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
         getFragmentManager().popBackStack();
     }
 
+    /**
+     * Like editMathTerm, but to show info about app
+     *
+     * @param explicitCall indicates wether user called
+     */
     @Override
     public void showSplashScreen(boolean explicitCall) {
         getFragmentManager().beginTransaction()
                 .setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out,
                         android.R.animator.fade_in, android.R.animator.fade_out)
+                        // exexplicitCall(explicitCall) builder creates bundle of ars and puts explicitCall in it
+                        // and sends bundle to fragment
                 .replace(R.id.container, SplashScreenFragment_.builder().explicitCall(explicitCall).build())
                 .addToBackStack(null)
                 .commit();
