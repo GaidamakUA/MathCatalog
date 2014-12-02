@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import com.example.gaidamak.mathcatalog.R.layout;
-import org.androidannotations.api.BackgroundExecutor;
 import org.androidannotations.api.builder.FragmentBuilder;
 import org.androidannotations.api.view.HasViews;
 import org.androidannotations.api.view.OnViewChangedListener;
@@ -24,7 +23,6 @@ public final class SplashScreenFragment_
 
     private final OnViewChangedNotifier onViewChangedNotifier_ = new OnViewChangedNotifier();
     private View contentView_;
-    public final static String EXPLICIT_CALL_ARG = "explicitCall";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,9 +50,7 @@ public final class SplashScreenFragment_
     }
 
     private void init_(Bundle savedInstanceState) {
-        pref = new SharePreferences_(getActivity());
         OnViewChangedNotifier.registerOnViewChangedListener(this);
-        injectFragmentArguments_();
     }
 
     @Override
@@ -69,7 +65,6 @@ public final class SplashScreenFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        hintText = hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.hint_for_user_text);
         {
             View view = hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.main_layout);
             if (view!= null) {
@@ -85,34 +80,6 @@ public final class SplashScreenFragment_
                 );
             }
         }
-        tryAutoclose();
-    }
-
-    private void injectFragmentArguments_() {
-        Bundle args_ = getArguments();
-        if (args_!= null) {
-            if (args_.containsKey(EXPLICIT_CALL_ARG)) {
-                explicitCall = args_.getBoolean(EXPLICIT_CALL_ARG);
-            }
-        }
-    }
-
-    @Override
-    public void autoclose() {
-        BackgroundExecutor.execute(new BackgroundExecutor.Task("", 0, "") {
-
-
-            @Override
-            public void execute() {
-                try {
-                    SplashScreenFragment_.super.autoclose();
-                } catch (Throwable e) {
-                    Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);
-                }
-            }
-
-        }
-        );
     }
 
     public static class FragmentBuilder_
@@ -125,11 +92,6 @@ public final class SplashScreenFragment_
             SplashScreenFragment_ fragment_ = new SplashScreenFragment_();
             fragment_.setArguments(args);
             return fragment_;
-        }
-
-        public SplashScreenFragment_.FragmentBuilder_ explicitCall(boolean explicitCall) {
-            args.putBoolean(EXPLICIT_CALL_ARG, explicitCall);
-            return this;
         }
 
     }

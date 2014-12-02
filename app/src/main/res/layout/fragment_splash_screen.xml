@@ -30,7 +30,6 @@
 
     <TextView
         android:id="@+id/hint_for_user_text"
-        android:visibility="gone"
         android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,14 +37,14 @@
         android:text="Натисніть на екран, щоб розпочати" />
 
     <!--<Button-->
-        <!--android:layout_marginTop="16dp"-->
-        <!--android:visibility="visible"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Натисніть"-->
-        <!--android:textColor="#FFF"-->
-        <!--android:id="@+id/button"-->
-        <!--android:background="@drawable/button_drawable"-->
-        <!--android:padding="4dp"/>-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:visibility="visible"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Натисніть"-->
+    <!--android:textColor="#FFF"-->
+    <!--android:id="@+id/button"-->
+    <!--android:background="@drawable/button_drawable"-->
+    <!--android:padding="4dp"/>-->
 
 </LinearLayout>

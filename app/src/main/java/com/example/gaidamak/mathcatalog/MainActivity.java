@@ -28,7 +28,7 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                     .add(R.id.container, new MathListFragment_())
                     .commit();
         }
-        showSplashScreen(false);
+        showSplashScreen();
     }
 
     @Override
@@ -94,17 +94,13 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
 
     /**
      * Like editMathTerm, but to show info about app
-     *
-     * @param explicitCall indicates wether user called
      */
     @Override
-    public void showSplashScreen(boolean explicitCall) {
+    public void showSplashScreen() {
         getFragmentManager().beginTransaction()
                 .setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out,
                         android.R.animator.fade_in, android.R.animator.fade_out)
-                        // exexplicitCall(explicitCall) builder creates bundle of ars and puts explicitCall in it
-                        // and sends bundle to fragment
-                .replace(R.id.container, SplashScreenFragment_.builder().explicitCall(explicitCall).build())
+                .replace(R.id.container, SplashScreenFragment_.builder().build())
                 .addToBackStack(null)
                 .commit();
     }

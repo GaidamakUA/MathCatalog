@@ -5,8 +5,12 @@ package com.example.gaidamak.mathcatalog;
  */
 public interface FragmentManagingActivity {
     public void viewMathTerm(long id);
+
     public void editMathTerm(long id);
+
     public void addNewTerm();
+
     public void cancel();
-    public void showSplashScreen(boolean explicitCall);
+
+    public void showSplashScreen();
 }

@@ -128,7 +128,7 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
      */
     @OptionsItem(R.id.aboutItem)
     void showAboutScreen() {
-        activity.showSplashScreen(true);
+        activity.showSplashScreen();
     }
 
     @Override
