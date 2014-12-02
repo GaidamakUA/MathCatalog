@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:id="@+id/main_layout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:text="Цей математичний додаток допоможе вам підготувати і використовувати вашу базу даних математичних термінів. Ви можете додавати/видаляти/переглядати/оновлювати ваші записи а також здійснювати пошук по них." />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="© 2014, створено Оленою Хрущ" />
+
+    <TextView
+        android:id="@+id/hint_for_user_text"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Натисніть на екран, щоб розпочати" />
+
+    <!--<Button-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:visibility="visible"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Натисніть"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:id="@+id/button"-->
+        <!--android:background="@drawable/button_drawable"-->
+        <!--android:padding="4dp"/>-->
+
+</LinearLayout>
+<!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/layout/fragment_splash_screen.xml -->

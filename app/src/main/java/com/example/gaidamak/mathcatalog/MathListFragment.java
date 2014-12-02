@@ -31,8 +31,8 @@ import de.timroes.android.listview.EnhancedListView;
  * so list can be updated instantly after DB change.
  * Layout and menu are inflated from XML
  */
-@EFragment(R.layout.fragment_main)
-@OptionsMenu(R.menu.fragment_list)
+@EFragment(R.layout.fragment_term_list)
+@OptionsMenu(R.menu.fragment_term_list_menu)
 public class MathListFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         SearchView.OnQueryTextListener{
     private static final String TAG = "MathListFragment";
@@ -118,6 +118,11 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
     void addItem() {
         Log.v(TAG, "add item");
         activity.addNewTerm();
+    }
+
+    @OptionsItem(R.id.aboutItem)
+    void showAboutScreen() {
+        activity.showSplashScreen(true);
     }
 
     @Override

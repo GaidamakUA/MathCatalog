@@ -47,7 +47,7 @@ public final class MathListFragment_
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         contentView_ = super.onCreateView(inflater, container, savedInstanceState);
         if (contentView_ == null) {
-            contentView_ = inflater.inflate(layout.fragment_main, container, false);
+            contentView_ = inflater.inflate(layout.fragment_term_list, container, false);
         }
         return contentView_;
     }
@@ -74,7 +74,7 @@ public final class MathListFragment_
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        inflater.inflate(com.example.gaidamak.mathcatalog.R.menu.fragment_list, menu);
+        inflater.inflate(com.example.gaidamak.mathcatalog.R.menu.fragment_term_list_menu, menu);
         super.onCreateOptionsMenu(menu, inflater);
     }
 
@@ -85,6 +85,10 @@ public final class MathListFragment_
             return true;
         }
         int itemId_ = item.getItemId();
+        if (itemId_ == com.example.gaidamak.mathcatalog.R.id.aboutItem) {
+            showAboutScreen();
+            return true;
+        }
         if (itemId_ == com.example.gaidamak.mathcatalog.R.id.addItem) {
             addItem();
             return true;

@@ -65,4 +65,5 @@ dependencies {
     compile project(':EnhancedListView')
     // Useless
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/chipsedittextlibrary.jar')
 }

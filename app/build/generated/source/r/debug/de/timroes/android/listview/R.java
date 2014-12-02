@@ -24,12 +24,12 @@ public final class R {
 		public static final int elv_undo_bottom_offset = 0x7f080003;
 	}
 	public static final class drawable {
-		public static final int elv_ic_action_undo = 0x7f020001;
-		public static final int elv_popup_bg = 0x7f020002;
-		public static final int elv_toast_frame = 0x7f020003;
-		public static final int elv_undo_btn_bg = 0x7f020004;
-		public static final int elv_undo_btn_bg_focused = 0x7f020005;
-		public static final int elv_undo_btn_bg_pressed = 0x7f020006;
+		public static final int elv_ic_action_undo = 0x7f020002;
+		public static final int elv_popup_bg = 0x7f020003;
+		public static final int elv_toast_frame = 0x7f020004;
+		public static final int elv_undo_btn_bg = 0x7f020005;
+		public static final int elv_undo_btn_bg_focused = 0x7f020006;
+		public static final int elv_undo_btn_bg_pressed = 0x7f020007;
 	}
 	public static final class id {
 		public static final int text = 0x7f090005;

@@ -8,6 +8,10 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
+import org.androidannotations.annotations.Background;
+
+import java.util.concurrent.TimeUnit;
+
 /**
  * Provides np UI itself, but manages {@link android.app.Fragment}
  */
@@ -29,6 +33,7 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                     .add(R.id.container, new MathListFragment_())
                     .commit();
         }
+        showSplashScreen(false);
     }
 
     @Override
@@ -90,6 +95,16 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
     @Override
     public void cancel() {
         getFragmentManager().popBackStack();
+    }
+
+    @Override
+    public void showSplashScreen(boolean explicitCall) {
+        getFragmentManager().beginTransaction()
+                .setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out,
+                        android.R.animator.fade_in, android.R.animator.fade_out)
+                .replace(R.id.container, SplashScreenFragment_.builder().explicitCall(explicitCall).build())
+                .addToBackStack(null)
+                .commit();
     }
 
     /**

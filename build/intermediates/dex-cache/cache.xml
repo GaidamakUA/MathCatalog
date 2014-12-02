@@ -38,6 +38,12 @@
         revision="21.1.1"
         sha1="ac33174269a767fcbf3a944cdb3d52e07ef93bee"/>
     <item
+        dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/chipsedittextlibrary-dacc7cc83bcba2d932e6a6eb1e4444b407e8f33d.jar"
+        jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/libs/chipsedittextlibrary.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="618df4a7c505aad1708b56a44d70910344aca6b0"/>
+    <item
         dex="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/pre-dexed/debug/classes-10a93695b716c005dff9edf1c696db21bf6549b2.jar"
         jar="/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.commonsware.cwac/richedit/0.3.0/classes.jar"
         jumboMode="false"

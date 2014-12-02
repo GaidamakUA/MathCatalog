@@ -8,4 +8,5 @@ public interface FragmentManagingActivity {
     public void editMathTerm(long id);
     public void addNewTerm();
     public void cancel();
+    public void showSplashScreen(boolean explicitCall);
 }
