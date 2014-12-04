@@ -47,7 +47,7 @@
     <string name="format">Format</string>
     <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="formula_hint">Formula</string>
+    <string name="formula_hint">Explanation</string>
     <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.commonsware.cwac/richedit/0.3.0/res/values/values.xml -->
     <eat-comment/>
     <string name="hello">Hello World!</string>
