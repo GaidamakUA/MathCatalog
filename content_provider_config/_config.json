@@ -1,8 +1,8 @@
 {
     "syntaxVersion": "2",
-    "projectPackageId": "com.example.gaidamak.mathcatalog",
-    "authority": "com.example.gaidamak.mathcatalog.provider",
-    "providerJavaPackage": "com.example.gaidamak.mathcatalog.provider",
+    "projectPackageId": "helper",
+    "authority": "helper.provider",
+    "providerJavaPackage": "helper.provider",
     "providerClassName": "MathProvider",
     "sqliteOpenHelperClassName": "MathSQLiteOpenHelper",
     "sqliteOpenHelperCallbacksClassName": "MathSQLiteOpenHelperCallbacks",

@@ -23,7 +23,7 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "com.example.gaidamak.mathcatalog"
+        applicationId "com.example.gaidamak.helper"
         // Minimal version Android 4.0.3
         minSdkVersion 15
         // Compiling for Android Lollipop :)
@@ -43,7 +43,7 @@ apt {
     // Annotations stuff
     arguments {
         androidManifestFile variant.processResources.manifestFile
-        resourcePackageName "com.example.gaidamak.mathcatalog"
+        resourcePackageName "com.example.gaidamak.helper"
     }
 }
 

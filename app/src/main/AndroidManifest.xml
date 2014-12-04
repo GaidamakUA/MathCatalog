@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gaidamak.mathcatalog" >
+    package="com.example.gaidamak.helper" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.gaidamak.mathcatalog.MainActivity"
+            android:name="com.example.gaidamak.helper.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +21,8 @@
         </activity>
         <!-- provider for internal use only android:exported="false" -->
         <provider
-            android:name="com.example.gaidamak.mathcatalog.provider.MathProvider"
-            android:authorities="com.example.gaidamak.mathcatalog.provider"
+            android:name="com.example.gaidamak.helper.provider.MathProvider"
+            android:authorities="com.example.gaidamak.helper.provider"
             android:exported="false" />
     </application>
 
