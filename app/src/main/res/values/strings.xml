@@ -7,6 +7,6 @@
     <string name="tags_hint">Tags</string>
     <string name="description_hint">Description</string>
     <string name="formula_hint">Formula</string>
-    <string name="math_term_hint">Math term</string>
+    <string name="math_term_hint">Term</string>
 
 </resources>
