@@ -1,5 +1,4 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -8,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/title_edittext"
-        android:hint="@string/math_term_hint"/>
+        android:hint="@string/math_term_hint" />
 
     <com.iangclifton.android.floatlabel.FloatLabel
         android:layout_width="match_parent"
@@ -16,7 +15,7 @@
         android:id="@+id/url_edittext"
         android:hint="URL"
         android:typeface="serif"
-        android:inputType="textWebEmailAddress"/>
+        android:inputType="textWebEmailAddress" />
 
     <com.iangclifton.android.floatlabel.FloatLabel
         android:layout_width="match_parent"
@@ -41,12 +40,12 @@
         android:gravity="top|left"
         android:inputType="textMultiLine"
         android:hint="@string/description_hint"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
     <com.kpbird.chipsedittextlibrary.ChipsMultiAutoCompleteTextview
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tags_edittext"
-        android:hint="@string/tags_hint"/>
+        android:hint="@string/tags_hint" />
 </LinearLayout>
 <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/layout/fragment_edit_term.xml -->

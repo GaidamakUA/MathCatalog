@@ -3,4 +3,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scaleType="centerCrop"
-    android:src="@drawable/vertical"/><!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/layout-land/background_image.xml -->
+    android:src="@drawable/vertical" /><!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/layout-land/background_image.xml -->

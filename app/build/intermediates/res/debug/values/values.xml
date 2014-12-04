@@ -24,7 +24,7 @@
     <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_add">Add</string>
-    <string name="app_name">MathCatalog</string>
+    <string name="app_name">helper</string>
     <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/build/intermediates/exploded-aar/com.commonsware.cwac/richedit/0.3.0/res/values/values.xml -->
     <eat-comment/>
     <string name="bold">Bold</string>
