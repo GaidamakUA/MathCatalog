@@ -13,6 +13,14 @@
     <com.iangclifton.android.floatlabel.FloatLabel
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/url_edittext"
+        android:hint="URL"
+        android:typeface="serif"
+        android:inputType="textWebEmailAddress"/>
+
+    <com.iangclifton.android.floatlabel.FloatLabel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/formula_edittext"
         android:hint="@string/formula_hint"
         android:typeface="serif" />
@@ -35,7 +43,7 @@
         android:hint="@string/description_hint"
         android:layout_weight="1"/>
 
-    <com.iangclifton.android.floatlabel.FloatLabel
+    <com.kpbird.chipsedittextlibrary.ChipsMultiAutoCompleteTextview
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tags_edittext"

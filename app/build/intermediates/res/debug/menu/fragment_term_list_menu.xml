@@ -8,8 +8,5 @@
     <item android:id="@+id/addItem"
         android:title="@string/action_add"
         android:showAsAction="never" />
-    <item android:id="@+id/aboutItem"
-        android:title="About application"
-        android:showAsAction="never" />
 </menu>
 <!-- From: file:/home/gaidamak/AndroidStudioProjects/MathCatalog/app/src/main/res/menu/fragment_term_list_menu.xml -->
