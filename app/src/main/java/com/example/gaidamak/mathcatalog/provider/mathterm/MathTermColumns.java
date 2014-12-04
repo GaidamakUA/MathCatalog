@@ -4,7 +4,6 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 
 import com.example.gaidamak.mathcatalog.provider.MathProvider;
-import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermColumns;
 
 /**
  * Entity which represents math term
@@ -22,6 +21,11 @@ public class MathTermColumns implements BaseColumns {
      * Name of math term
      */
     public static final String MATH_TERM = "math_term";
+
+    /**
+     * Url
+     */
+    public static final String URL = "url";
 
     /**
      * Name of math term lowercase, (workaround, case insensitive LIKE for SQLite does not working for non ASCII characters)
@@ -44,12 +48,13 @@ public class MathTermColumns implements BaseColumns {
     public static final String TAGS = "tags";
 
 
-    public static final String DEFAULT_ORDER = TABLE_NAME + "." +_ID;
+    public static final String DEFAULT_ORDER = TABLE_NAME + "." + _ID;
 
     // @formatter:off
-    public static final String[] ALL_COLUMNS = new String[] {
+    public static final String[] ALL_COLUMNS = new String[]{
             _ID,
             MATH_TERM,
+            URL,
             MATH_TERM_LOWERCASE,
             MATH_FORMULA,
             DESCRIPTION,
@@ -61,6 +66,7 @@ public class MathTermColumns implements BaseColumns {
         if (projection == null) return true;
         for (String c : projection) {
             if (c == MATH_TERM || c.contains("." + MATH_TERM)) return true;
+            if (c == URL || c.contains("." + URL)) return true;
             if (c == MATH_TERM_LOWERCASE || c.contains("." + MATH_TERM_LOWERCASE)) return true;
             if (c == MATH_FORMULA || c.contains("." + MATH_FORMULA)) return true;
             if (c == DESCRIPTION || c.contains("." + DESCRIPTION)) return true;

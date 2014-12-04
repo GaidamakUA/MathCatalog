@@ -1,7 +1,5 @@
 package com.example.gaidamak.mathcatalog.provider.mathterm;
 
-import java.util.Date;
-
 import android.database.Cursor;
 
 import com.example.gaidamak.mathcatalog.provider.base.AbstractCursor;
@@ -20,6 +18,15 @@ public class MathTermCursor extends AbstractCursor {
      */
     public String getMathTerm() {
         Integer index = getCachedColumnIndexOrThrow(MathTermColumns.MATH_TERM);
+        return getString(index);
+    }
+
+    /**
+     * Url
+     * Cannot be {@code null}.
+     */
+    public String getUrl() {
+        Integer index = getCachedColumnIndexOrThrow(MathTermColumns.URL);
         return getString(index);
     }
 

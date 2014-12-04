@@ -85,10 +85,6 @@ public final class MathListFragment_
             return true;
         }
         int itemId_ = item.getItemId();
-        if (itemId_ == com.example.gaidamak.mathcatalog.R.id.aboutItem) {
-            showAboutScreen();
-            return true;
-        }
         if (itemId_ == com.example.gaidamak.mathcatalog.R.id.addItem) {
             addItem();
             return true;

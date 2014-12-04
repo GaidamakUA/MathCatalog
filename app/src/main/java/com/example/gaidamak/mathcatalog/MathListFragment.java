@@ -121,16 +121,6 @@ public class MathListFragment extends Fragment implements LoaderManager.LoaderCa
         activity.addNewTerm();
     }
 
-    /**
-     * Showing information about app.
-     * Handling click on menu button, and delegating call
-     * to {@link com.example.gaidamak.mathcatalog.MainActivity}
-     */
-    @OptionsItem(R.id.aboutItem)
-    void showAboutScreen() {
-        activity.showSplashScreen();
-    }
-
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
         String filter = null;

@@ -2,13 +2,13 @@ package com.example.gaidamak.mathcatalog;
 
 import android.app.Fragment;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import com.commonsware.cwac.richedit.RichEditText;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermContentValues;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermCursor;
 import com.example.gaidamak.mathcatalog.provider.mathterm.MathTermSelection;
 import com.iangclifton.android.floatlabel.FloatLabel;
+import com.kpbird.chipsedittextlibrary.ChipsMultiAutoCompleteTextview;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
@@ -34,6 +34,8 @@ public class EditTermFragment extends Fragment {
     // FloatLabel is a lib component, so cute PopUp is show as hint
     @ViewById(R.id.title_edittext)
     FloatLabel titleTextView;
+    @ViewById(R.id.url_edittext)
+    FloatLabel urlTextView;
     @ViewById(R.id.formula_edittext)
     FloatLabel formulaTextView;
 
@@ -42,7 +44,7 @@ public class EditTermFragment extends Fragment {
     // FloatLabel works only with one line
 //    FloatLabel descriptionTextView;
     @ViewById(R.id.tags_edittext)
-    FloatLabel tagsTextView;
+    ChipsMultiAutoCompleteTextview tagsTextView;
 
     /**
      * Handling click on save options menu.
@@ -52,9 +54,10 @@ public class EditTermFragment extends Fragment {
     void save() {
         MathTermContentValues contentValues = new MathTermContentValues();
         contentValues.putMathTerm(titleTextView.getEditText().getText().toString());
+        contentValues.putUrl(urlTextView.getEditText().getText().toString());
         contentValues.putMathFormula(formulaTextView.getEditText().getText().toString());
         contentValues.putDescription(descriptionTextView.getText().toString());
-        contentValues.putTags(tagsTextView.getEditText().getText().toString());
+        contentValues.putTags(tagsTextView.getText().toString());
         if (termId != -1) {
             contentValues.update(getActivity().getContentResolver(), new MathTermSelection().id(termId));
         } else {
@@ -74,6 +77,7 @@ public class EditTermFragment extends Fragment {
 
     /**
      * Initialize fields with content
+     *
      * @see org.androidannotations.annotations.AfterViews
      */
     @AfterViews
@@ -84,7 +88,7 @@ public class EditTermFragment extends Fragment {
         }
         MathTermSelection selection = new MathTermSelection();
         MathTermCursor cursor = selection.id(termId).query(getActivity().getContentResolver());
-        if(cursor.getCount() != 1) {
+        if (cursor.getCount() != 1) {
             throw new RuntimeException("Unexpected number of items:" + cursor.getCount());
         }
         cursor.moveToFirst();
@@ -93,9 +97,10 @@ public class EditTermFragment extends Fragment {
 
         titleTextView.getEditText().setText(cursor.getMathTerm());
         formulaTextView.getEditText().setText(cursor.getMathFormula());
+        urlTextView.getEditText().setText(cursor.getUrl());
 
         descriptionTextView.setText(cursor.getDescription());
-        tagsTextView.getEditText().setText(cursor.getTags());
+        tagsTextView.setText(cursor.getTags());
 
         RichEditText descriptionEditor = (RichEditText) descriptionTextView;
     }

@@ -28,7 +28,6 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                     .add(R.id.container, new MathListFragment_())
                     .commit();
         }
-        showSplashScreen();
     }
 
     @Override
@@ -40,6 +39,7 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
 
     /**
      * Start {@link com.example.gaidamak.mathcatalog.ViewTermFragment_}
+     *
      * @param id The id of MathTerm
      */
     @Override
@@ -50,15 +50,16 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
                         R.animator.slide_out_left,              // Disappear
                         R.animator.slide_in_right,              // Appear on cancel
                         R.animator.slide_out_right)             // Disappear on cancel
-                // Sweat features of @AndroidAnnotations
+                        // Sweat features of @AndroidAnnotations
                 .replace(R.id.container, ViewTermFragment_.builder().termId(id).build())
-                // Make operation reversible
+                        // Make operation reversible
                 .addToBackStack(null)
                 .commit();
     }
 
     /**
      * Start {@link com.example.gaidamak.mathcatalog.EditTermFragment_}
+     *
      * @param id The id of MathTerm
      */
     @Override
@@ -93,19 +94,6 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
     }
 
     /**
-     * Like editMathTerm, but to show info about app
-     */
-    @Override
-    public void showSplashScreen() {
-        getFragmentManager().beginTransaction()
-                .setCustomAnimations(android.R.animator.fade_in, android.R.animator.fade_out,
-                        android.R.animator.fade_in, android.R.animator.fade_out)
-                .replace(R.id.container, SplashScreenFragment_.builder().build())
-                .addToBackStack(null)
-                .commit();
-    }
-
-    /**
      * Listener to make swipe work
      */
     public class OnSwipeTouchListener implements View.OnTouchListener {
@@ -115,7 +103,7 @@ public class MainActivity extends Activity implements FragmentManagingActivity {
          */
         private final GestureDetector gestureDetector;
 
-        public OnSwipeTouchListener (Context ctx){
+        public OnSwipeTouchListener(Context ctx) {
             gestureDetector = new GestureDetector(ctx, new GestureListener());
         }
 

@@ -36,7 +36,7 @@ public final class R {
 		public static final int undo = 0x7f090006;
 	}
 	public static final class layout {
-		public static final int elv_undo_popup = 0x7f030002;
+		public static final int elv_undo_popup = 0x7f030003;
 	}
 	public static final class string {
 		public static final int elv_item_deleted = 0x7f0a0006;
@@ -45,6 +45,6 @@ public final class R {
 		public static final int elv_undo_all = 0x7f0a0009;
 	}
 	public static final class style {
-		public static final int elv_fade_animation = 0x7f0b0002;
+		public static final int elv_fade_animation = 0x7f0b0003;
 	}
 }

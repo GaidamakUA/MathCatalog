@@ -11,6 +11,4 @@ public interface FragmentManagingActivity {
     public void addNewTerm();
 
     public void cancel();
-
-    public void showSplashScreen();
 }

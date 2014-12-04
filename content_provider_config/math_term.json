@@ -8,6 +8,12 @@
             "nullable": false,
         },
         {
+            "documentation": "Url",
+            "name": "url",
+            "type": "String",
+            "nullable": false,
+        },
+        {
             "documentation": "Name of math term lowercase, (workaround, case insensitive LIKE for SQLite does not working for non ASCII characters)",
             "name": "math_term_lowercase",
             "type": "String",

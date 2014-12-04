@@ -5,6 +5,7 @@ package com.example.gaidamak.mathcatalog;
  */
 public class JsonItem {
     public String title;
+    public String url;
     public String formula;
     public String tags;
     public String description;

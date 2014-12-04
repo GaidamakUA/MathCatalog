@@ -27,6 +27,7 @@ public class MathSQLiteOpenHelper extends SQLiteOpenHelper {
             + MathTermColumns.TABLE_NAME + " ( "
             + MathTermColumns._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + MathTermColumns.MATH_TERM + " TEXT NOT NULL, "
+            + MathTermColumns.URL + " TEXT NOT NULL, "
             + MathTermColumns.MATH_TERM_LOWERCASE + " TEXT NOT NULL, "
             + MathTermColumns.MATH_FORMULA + " TEXT, "
             + MathTermColumns.DESCRIPTION + " TEXT NOT NULL, "

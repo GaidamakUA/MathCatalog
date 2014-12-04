@@ -52,59 +52,62 @@ containing a value of this type.
         public static final int elv_undo_btn_bg=0x7f020005;
         public static final int elv_undo_btn_bg_focused=0x7f020006;
         public static final int elv_undo_btn_bg_pressed=0x7f020007;
-        public static final int ic_action_format_dark=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int tile_background=0x7f02000a;
-        public static final int vertical_background=0x7f02000b;
+        public static final int horizontal=0x7f020008;
+        public static final int ic_action_format_dark=0x7f020009;
+        public static final int ic_launcher=0x7f02000a;
+        public static final int tile_background=0x7f02000b;
+        public static final int vertical=0x7f02000c;
     }
     public static final class id {
-        public static final int aboutItem=0x7f090023;
-        public static final int action_cancel=0x7f09001f;
-        public static final int action_edit=0x7f090024;
-        public static final int action_save=0x7f090020;
-        public static final int addItem=0x7f090022;
+        public static final int action_cancel=0x7f090021;
+        public static final int action_edit=0x7f090025;
+        public static final int action_save=0x7f090022;
+        public static final int addItem=0x7f090024;
         public static final int container=0x7f090002;
-        public static final int cwac_richedittext_bold=0x7f09001b;
-        public static final int cwac_richedittext_center=0x7f090019;
-        public static final int cwac_richedittext_effects=0x7f09001d;
-        public static final int cwac_richedittext_fonts=0x7f09001e;
-        public static final int cwac_richedittext_format=0x7f090014;
-        public static final int cwac_richedittext_italic=0x7f09001c;
-        public static final int cwac_richedittext_mono=0x7f090017;
-        public static final int cwac_richedittext_normal=0x7f090018;
-        public static final int cwac_richedittext_opposite=0x7f09001a;
-        public static final int cwac_richedittext_sans=0x7f090016;
-        public static final int cwac_richedittext_serif=0x7f090015;
-        public static final int cwac_richedittext_strike=0x7f090011;
-        public static final int cwac_richedittext_subscript=0x7f090013;
-        public static final int cwac_richedittext_superscript=0x7f090012;
-        public static final int cwac_richedittext_underline=0x7f090010;
-        public static final int description_edittext=0x7f090009;
-        public static final int description_textview=0x7f09000e;
+        public static final int cwac_richedittext_bold=0x7f09001d;
+        public static final int cwac_richedittext_center=0x7f09001b;
+        public static final int cwac_richedittext_effects=0x7f09001f;
+        public static final int cwac_richedittext_fonts=0x7f090020;
+        public static final int cwac_richedittext_format=0x7f090016;
+        public static final int cwac_richedittext_italic=0x7f09001e;
+        public static final int cwac_richedittext_mono=0x7f090019;
+        public static final int cwac_richedittext_normal=0x7f09001a;
+        public static final int cwac_richedittext_opposite=0x7f09001c;
+        public static final int cwac_richedittext_sans=0x7f090018;
+        public static final int cwac_richedittext_serif=0x7f090017;
+        public static final int cwac_richedittext_strike=0x7f090013;
+        public static final int cwac_richedittext_subscript=0x7f090015;
+        public static final int cwac_richedittext_superscript=0x7f090014;
+        public static final int cwac_richedittext_underline=0x7f090012;
+        public static final int description_edittext=0x7f09000a;
+        public static final int description_textview=0x7f090010;
         public static final int edit_text=0x7f090000;
         public static final int float_label=0x7f090001;
-        public static final int formula_edittext=0x7f090008;
-        public static final int formula_textview=0x7f09000d;
-        public static final int hint_for_user_text=0x7f09000c;
-        public static final int main_layout=0x7f09000b;
-        public static final int search=0x7f090021;
-        public static final int tags_edittext=0x7f09000a;
-        public static final int tags_textview=0x7f09000f;
+        public static final int formula_edittext=0x7f090009;
+        public static final int formula_textview=0x7f09000e;
+        public static final int hint_for_user_text=0x7f09000d;
+        public static final int main_layout=0x7f09000c;
+        public static final int search=0x7f090023;
+        public static final int tags_edittext=0x7f09000b;
+        public static final int tags_textview=0x7f090011;
         public static final int term_formula=0x7f090004;
         public static final int term_name=0x7f090003;
         public static final int text=0x7f090005;
         public static final int title_edittext=0x7f090007;
         public static final int undo=0x7f090006;
+        public static final int url_edittext=0x7f090008;
+        public static final int url_textview=0x7f09000f;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int custom_two_line_list_item=0x7f030001;
-        public static final int elv_undo_popup=0x7f030002;
-        public static final int float_label=0x7f030003;
-        public static final int fragment_edit_term=0x7f030004;
-        public static final int fragment_splash_screen=0x7f030005;
-        public static final int fragment_term_list=0x7f030006;
-        public static final int fragment_view_term=0x7f030007;
+        public static final int background_image=0x7f030001;
+        public static final int custom_two_line_list_item=0x7f030002;
+        public static final int elv_undo_popup=0x7f030003;
+        public static final int float_label=0x7f030004;
+        public static final int fragment_edit_term=0x7f030005;
+        public static final int fragment_splash_screen=0x7f030006;
+        public static final int fragment_term_list=0x7f030007;
+        public static final int fragment_view_term=0x7f030008;
     }
     public static final class menu {
         public static final int cwac_richedittext_effects=0x7f0c0000;
@@ -148,10 +151,9 @@ containing a value of this type.
     }
     public static final class style {
         public static final int AppTheme=0x7f0b0000;
-        /** <item name="android:background">#8a4900</item>
-         */
         public static final int MyActionBar=0x7f0b0001;
-        public static final int elv_fade_animation=0x7f0b0002;
+        public static final int TitleTextStyle=0x7f0b0002;
+        public static final int elv_fade_animation=0x7f0b0003;
     }
     public static final class xml {
         public static final int searchable=0x7f060000;

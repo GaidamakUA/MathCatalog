@@ -1,7 +1,5 @@
 package com.example.gaidamak.mathcatalog.provider.mathterm;
 
-import java.util.Date;
-
 import android.content.ContentResolver;
 import android.net.Uri;
 
@@ -20,7 +18,7 @@ public class MathTermContentValues extends AbstractContentValues {
      * Update row(s) using the values stored by this object and the given selection.
      *
      * @param contentResolver The content resolver to use.
-     * @param where The selection to use (can be {@code null}).
+     * @param where           The selection to use (can be {@code null}).
      */
     public int update(ContentResolver contentResolver, MathTermSelection where) {
         return contentResolver.update(uri(), values(), where == null ? null : where.sel(), where == null ? null : where.args());
@@ -30,26 +28,33 @@ public class MathTermContentValues extends AbstractContentValues {
      * Name of math term
      */
     public MathTermContentValues putMathTerm(String value) {
-        if (value == null) throw new IllegalArgumentException("value for mathTerm must not be null");
-        // This is used to provide case insensitive search
-        // and do not force user to call same method twice
+        if (value == null)
+            throw new IllegalArgumentException("value for mathTerm must not be null");
         mContentValues.put(MathTermColumns.MATH_TERM, value);
-        this.putMathTermLowercase(value.toLowerCase());
+        putMathTermLowercase(value.toLowerCase());
         return this;
     }
 
+
+    /**
+     * Url
+     */
+    public MathTermContentValues putUrl(String value) {
+        if (value == null) throw new IllegalArgumentException("value for url must not be null");
+        mContentValues.put(MathTermColumns.URL, value);
+        return this;
+    }
 
 
     /**
      * Name of math term lowercase, (workaround, case insensitive LIKE for SQLite does not working for non ASCII characters)
-     * Called from putMathTerm
      */
     public MathTermContentValues putMathTermLowercase(String value) {
-        if (value == null) throw new IllegalArgumentException("value for mathTermLowercase must not be null");
+        if (value == null)
+            throw new IllegalArgumentException("value for mathTermLowercase must not be null");
         mContentValues.put(MathTermColumns.MATH_TERM_LOWERCASE, value);
         return this;
     }
-
 
 
     /**
@@ -70,11 +75,11 @@ public class MathTermContentValues extends AbstractContentValues {
      * Description of math term
      */
     public MathTermContentValues putDescription(String value) {
-        if (value == null) throw new IllegalArgumentException("value for description must not be null");
+        if (value == null)
+            throw new IllegalArgumentException("value for description must not be null");
         mContentValues.put(MathTermColumns.DESCRIPTION, value);
         return this;
     }
-
 
 
     /**

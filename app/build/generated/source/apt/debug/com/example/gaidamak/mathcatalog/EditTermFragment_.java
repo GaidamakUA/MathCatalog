@@ -15,6 +15,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import com.example.gaidamak.mathcatalog.R.layout;
 import com.iangclifton.android.floatlabel.FloatLabel;
+import com.kpbird.chipsedittextlibrary.ChipsMultiAutoCompleteTextview;
 import org.androidannotations.api.builder.FragmentBuilder;
 import org.androidannotations.api.view.HasViews;
 import org.androidannotations.api.view.OnViewChangedListener;
@@ -72,10 +73,11 @@ public final class EditTermFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        tagsTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_edittext));
-        formulaTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.formula_edittext));
-        titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
         descriptionTextView = ((EditText) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.description_edittext));
+        urlTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.url_edittext));
+        tagsTextView = ((ChipsMultiAutoCompleteTextview) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.tags_edittext));
+        titleTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.title_edittext));
+        formulaTextView = ((FloatLabel) hasViews.findViewById(com.example.gaidamak.mathcatalog.R.id.formula_edittext));
         initViews();
     }
 
@@ -101,12 +103,12 @@ public final class EditTermFragment_
             return true;
         }
         int itemId_ = item.getItemId();
-        if (itemId_ == com.example.gaidamak.mathcatalog.R.id.action_save) {
-            save();
-            return true;
-        }
         if (itemId_ == com.example.gaidamak.mathcatalog.R.id.action_cancel) {
             cancel();
+            return true;
+        }
+        if (itemId_ == com.example.gaidamak.mathcatalog.R.id.action_save) {
+            save();
             return true;
         }
         return false;

@@ -1,6 +1,7 @@
 package com.example.gaidamak.mathcatalog;
 
 import android.app.Fragment;
+import android.text.method.LinkMovementMethod;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
 
@@ -32,6 +33,8 @@ public class ViewTermFragment extends Fragment {
     // Injection takes place ASAP please refer to AndroidAnnotation documentation
     @ViewById(R.id.formula_textview)
     TextView formulaTextView;
+    @ViewById(R.id.url_textview)
+    TextView urlTextView;
     @ViewById(R.id.description_textview)
     TextView descriptionTextView;
     @ViewById(R.id.tags_textview)
@@ -64,8 +67,10 @@ public class ViewTermFragment extends Fragment {
         getActivity().getActionBar().setTitle(cursor.getMathTerm());
 
         descriptionTextView.setMovementMethod(new ScrollingMovementMethod());
+        urlTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         formulaTextView.setText(cursor.getMathFormula());
+        urlTextView.setText(cursor.getUrl());
         descriptionTextView.setText(cursor.getDescription());
         tagsTextView.setText(cursor.getTags());
     }
