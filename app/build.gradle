@@ -19,6 +19,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
+    // Building for android L
     compileSdkVersion 21
     buildToolsVersion "21.1.1"
 
